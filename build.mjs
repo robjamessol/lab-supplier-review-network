@@ -89,7 +89,7 @@ async function buildSite(siteId, reviews) {
   // --- pages -------------------------------------------------------------
   for (const p of pages) {
     const html = renderPage({ site, page: p, reviews, buildDate: BUILD_DATE });
-    const md = renderMarkdownAlternate({ site, page: p });
+    const md = renderMarkdownAlternate({ site, page: p, reviews });
     if (p.path === '/') {
       await writeFile(path.join(out, 'index.html'), html);
       await writeFile(path.join(out, 'index.md'), md);
@@ -108,7 +108,7 @@ async function buildSite(siteId, reviews) {
   await writeFile(path.join(out, 'sitemap.xml'), renderSitemap({ site, pages, buildDate: BUILD_DATE }));
   await writeFile(path.join(out, 'robots.txt'), renderRobots({ site }));
   await writeFile(path.join(out, 'llms.txt'), renderLlmsTxt({ site, pages }));
-  await writeFile(path.join(out, 'llms-full.txt'), renderLlmsFull({ site, pages }));
+  await writeFile(path.join(out, 'llms-full.txt'), renderLlmsFull({ site, pages, reviews }));
 
   const publicDir = path.join(dir, 'public');
   if (existsSync(publicDir)) await cp(publicDir, out, { recursive: true });

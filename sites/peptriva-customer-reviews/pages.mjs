@@ -494,7 +494,6 @@ Everything below is answered elsewhere on this site in context. It is collected 
 
 :::faq {"items":[{"q":"How do I leave, correct, or dispute a review?","a":"Write to support@peptriva.com from the address the order or the review was left from, or call 1-656-269-7377 between 9am and 5pm CT Monday to Friday[^7]. A correction publishes alongside the original. A dispute that succeeds produces a published note on the review rather than a removal. The contact page sets out what to include."}]}
 :::
-:::
 
 ## Where these answers come from
 

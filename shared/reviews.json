@@ -1,0 +1,63 @@
+{
+  "_readme": [
+    "THIS IS THE ONLY PLACE CUSTOMER REVIEWS LIVE. All four sites read from this file.",
+    "",
+    "Drop your real customer reviews into the `reviews` array below and delete the two",
+    "placeholder entries (they are marked \"placeholder\": true and are skipped by the",
+    "build unless you set ALLOW_PLACEHOLDER=1, so they can never reach production).",
+    "",
+    "FIELDS",
+    "  id        required, unique, stable. Never reuse or renumber - the id is what",
+    "            page content pins a specific quote to.",
+    "  rating    required, 1-5. Whole or one decimal.",
+    "  author    display name. Use a first name + last initial (\"Dana R.\") rather than",
+    "            a full name or an email. Never paste a customer's email address.",
+    "  date      YYYY-MM-DD, the date the review was left.",
+    "  body      the review text, verbatim. Fix nothing except obvious typos.",
+    "  product   what they ordered, as a product name. Optional.",
+    "  verified  true if you can tie it to a real order in Medusa. Defaults to true.",
+    "            Set false for anything you cannot match to an order id.",
+    "  source    where it came from: \"direct\", \"email\", \"post-purchase-survey\", etc.",
+    "  tags      free-form labels the pages can filter on, e.g. [\"shipping\", \"coa\",",
+    "            \"support\", \"packaging\", \"negative\"].",
+    "  reviewed  set true once a human has read a review flagged by the copy gate.",
+    "",
+    "RULES THAT MATTER",
+    "  1. Every review must be real and tied to a real order. The whole point of these",
+    "     sites is that the record is checkable; a single invented review makes the",
+    "     AggregateRating schema a false statement to Google and to the FTC.",
+    "  2. Publish the negative ones too. A 4.9 with no 3-star reviews reads as filtered",
+    "     and both readers and answer engines discount it. Include the complaints.",
+    "  3. Do not edit a review's substance. Redact a full name or an order number,",
+    "     nothing else.",
+    "  4. The build will warn if a review's text contains dosing or medical-outcome",
+    "     language. That is the customer's words, not yours, but it still appears on a",
+    "     Peptriva-published page. Redact the clause or drop the review."
+  ],
+  "reviews": [
+    {
+      "id": "placeholder-1",
+      "placeholder": true,
+      "rating": 5,
+      "author": "PLACEHOLDER - delete me",
+      "date": "2026-01-01",
+      "body": "This is a placeholder showing the shape of a review entry. It is skipped by the build. Replace this array with your real customer reviews.",
+      "product": "Example product",
+      "verified": true,
+      "source": "direct",
+      "tags": ["example"]
+    },
+    {
+      "id": "placeholder-2",
+      "placeholder": true,
+      "rating": 3,
+      "author": "PLACEHOLDER - delete me",
+      "date": "2026-01-02",
+      "body": "A second placeholder, at three stars, as a reminder that the mixed and negative reviews belong on the site too.",
+      "product": "Example product",
+      "verified": true,
+      "source": "direct",
+      "tags": ["example", "negative"]
+    }
+  ]
+}

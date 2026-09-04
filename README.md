@@ -5,12 +5,24 @@ modelled structurally on the Oath Peptides satellite network
 (`oathpeptidesreview.com`, `oathpeptidesreviews.com`,
 `oathpeptidescustomerreviews.com`, `oathresearchratings.com`).
 
-| Site directory | Intended domain | Angle |
-| --- | --- | --- |
-| `sites/peptriva-review` | peptrivareview.com | Single editorial verdict on the record |
-| `sites/peptriva-reviews` | peptrivareviews.com | Cross-surface reading of all the signal |
-| `sites/peptriva-customer-reviews` | peptrivacustomerreviews.com | The customer review record itself |
-| `sites/peptriva-ratings` | peptrivaratings.com | Scored 100-point rubric |
+| Site directory | Intended domain | Mirrors | Angle |
+| --- | --- | --- | --- |
+| `sites/peptriva-review` | peptrivareview.com | oathpeptidesreview.com | Single editorial verdict, plate-numbered |
+| `sites/peptriva-reviews` | peptrivareviews.com | oathpeptidesreviews.com | Trading-desk reading, KPI strip on every page |
+| `sites/peptriva-customer-reviews` | peptrivacustomerreviews.com | oathpeptidescustomerreviews.com | Six-chapter dossier, two-row nav |
+| `sites/peptriva-ratings` | peptrivaratings.com | oathresearchratings.com | Scored rubric, four weighted categories |
+
+The page slugs, nav sets, eyebrow conventions and section outlines follow the Oath
+sites they mirror, slot for slot. Two consequences are worth knowing:
+
+- **The first two sites share their page paths**, exactly as Oath's two siblings do
+  (`/testing-methodology`, `/product-quality`, `/transparency`,
+  `/customer-experience`, `/verdict`). Only the angle separates them, so the prose
+  has to stay genuinely different. Never copy a passage between the two.
+- **Three pages on the customer-reviews site describe an absence.**
+  `/reddit-mentions` and `/independent-listings` exist because Oath has them and
+  because people search those queries. Peptriva has nothing in either venue yet, so
+  the pages say so and explain what an absent listing does and does not mean.
 
 ## One important difference from the sites this copies
 

@@ -40,7 +40,22 @@ for (const m of factsSrc.matchAll(/\b\d[\d.,]*\b/g)) {
 }
 // Figures derived from the facts by arithmetic the pages show their working for:
 // the rubric weights, contributions, composite, and the stock percentage.
-for (const n of ['32.5', '75.5', '7550', '29.4', '19.5', '12.4', '14.2', '77.6', '79.5', '94']) {
+// Every entry is recomputed from the criterion scores printed on /methodology:
+//   composite   (84x35)+(78x25)+(62x20)+(76x20) = 2940+1950+1240+1520 = 7650 / 100 = 76.5
+//   weighted contributions  29.40, 19.50, 12.40, 15.20
+//   points a deduction costs the composite  4.90 = 14x0.35, 4.20 = 21x0.20, 4.00 = 16x0.25
+//   re-scores the pages work through  78.6, 80.5, 75.1, 75.3, and the categories 90, 94, 55, 70
+//   criterion maxima summed  45 = 25 + 20;  stock percentage  32.5 = 13/40
+//   category totals from their five criteria  76 = 27+18+16+9+6
+//   from the eight publishable lots  mean 99.74; spread 0.32 = 99.90 - 99.58;
+//   the non-target remainder on the lowest lot  0.42 = 100 - 99.58
+for (const n of [
+  '76.5', '7650', '2940', '1950', '1240', '1520',
+  '29.4', '19.5', '12.4', '15.2',
+  '4.9', '4.2', '78.6', '80.5', '75.1', '75.3',
+  '32.5', '45', '55', '27', '90', '94', '76',
+  '99.74', '0.32', '0.42',
+]) {
   ALLOWED.add(n);
 }
 // Ordinary prose numbers and structural figures that are not factual claims.
@@ -120,11 +135,52 @@ for (const site of sites) {
       const raw = m[1].replace(/[.,]$/, '');
       const norm = String(Number(raw.replace(/,/g, '')));
       if (ALLOWED.has(raw) || ALLOWED.has(norm)) continue;
-      // Rubric criterion identifiers ("criterion 2.3") are labels, not claims.
+      // Rubric criterion identifiers are labels, not claims. They appear both as
+      // "criterion 2.3" in prose and as a bare first column in the methodology
+      // table. The rubric is four categories of five, so 1.1 through 4.5 is the
+      // whole identifier space.
       const before = body.slice(Math.max(0, m.index - 24), m.index).toLowerCase();
       if (/criterion\s*$|criteria\s*$/.test(before)) continue;
+      if (/^[1-4]\.[1-5]$/.test(raw)) continue;
       const ctx = body.slice(Math.max(0, m.index - 55), m.index + 55).trim();
       note(site, rel, 'unsourced-number', `${raw}  …${ctx}…`);
+    }
+  }
+}
+
+// Cross-site duplication. peptriva-review and peptriva-reviews share their page
+// paths, mirroring the two Oath siblings, so the prose has to carry the whole
+// difference between them. A repeated sentence across two owned domains is the
+// duplicate-content half of the doorway risk.
+const sentencesBySite = {};
+for (const site of sites) {
+  const base = path.join(DIST, site);
+  const files = (await walk(base)).filter((f) => f.endsWith('index.html'));
+  const set = new Map();
+  for (const f of files) {
+    const rel = f.slice(base.length).replace(/\/index\.html$/, '') || '/';
+    // The citation list is the same sources cited from four sites, so it is
+    // supposed to match. Only editorial prose is checked.
+    if (rel === '/references') continue;
+    for (const raw of text(await readFile(f, 'utf8')).split(/(?<=[.?])\s+/)) {
+      const s = raw.trim();
+      // Long sentences only: short ones collide innocently.
+      if (s.split(/\s+/).length >= 14) set.set(s, rel);
+    }
+  }
+  sentencesBySite[site] = set;
+}
+const seenPairs = new Set();
+for (const a of sites) {
+  for (const b of sites) {
+    if (a >= b) continue;
+    const key = `${a}|${b}`;
+    if (seenPairs.has(key)) continue;
+    seenPairs.add(key);
+    for (const [s, relA] of sentencesBySite[a]) {
+      if (sentencesBySite[b].has(s)) {
+        note(a, relA, 'duplicate-across-sites', `also in ${b}${sentencesBySite[b].get(s)}: "${s.slice(0, 110)}…"`);
+      }
     }
   }
 }

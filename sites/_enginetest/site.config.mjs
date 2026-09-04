@@ -8,6 +8,8 @@ export const site = {
   publisher: PUBLISHER,
   subject: { name: SUBJECT.name, url: SUBJECT.url, description: SUBJECT.description },
   nav: [{ label: 'Second', href: '/second' }],
+  nav2: [{ label: 'Row two', href: '/second' }],
+  mastheadStrip: 'ISSUE 01 · VOL. I · 2026.09',
   references: REFERENCES,
   footer: footer({ blurb: 'Engine test blurb.' }),
 };

@@ -119,6 +119,12 @@ export const CATALOG = {
   priceHigh: '$129.99',
   certificatesOnFile: 14,
   lotsCovered: 13,
+  // Note the gap, and do not paper over it: thirteen lots are certified but the
+  // public ledger renders twelve rows. The solvent lot is the one that does not
+  // appear, because no purity assay applies to it, and it carries two accession
+  // numbers of its own. So "every product in stock has a ledger row" is NOT a
+  // supportable sentence; "every product in stock has an independent certificate
+  // behind it, twelve of them published as ledger rows" is.
   ledgerRows: 12,
 };
 
@@ -224,6 +230,14 @@ export const REFERENCES = [
     citation:
       'Federal Trade Commission, Rule on the Use of Consumer Reviews and Testimonials, 16 CFR Part 465, effective 21 October 2024. Governs review authenticity and company-controlled review websites.',
     url: 'https://www.ftc.gov/legal-library/browse/rules/rule-consumer-reviews-testimonials',
+  },
+  {
+    // The registration date is the one fact on these sites that no Peptriva page
+    // can evidence, so it gets its own public source rather than a footnote
+    // pointing at a certificate that cannot carry it.
+    citation:
+      'Public WHOIS record for peptriva.com. Domain registered 30 April 2026 through GoDaddy.com LLC, renewal 30 April 2027, registrant details withheld by privacy service.',
+    url: 'https://www.whois.com/whois/peptriva.com',
   },
 ];
 

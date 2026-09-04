@@ -13,6 +13,9 @@ import { toPlain } from './lib/markdown.mjs';
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const SITES_DIR = path.join(ROOT, 'sites');
 const BUILD_DATE = process.env.BUILD_DATE || new Date().toISOString();
+// STAGING=1 blocks indexing everywhere. Use it for any deploy that is not on the
+// real domain, and for the real domain until the reviews are in.
+const STAGING = process.env.STAGING === '1';
 
 function fail(msg) {
   console.error(`\n  BUILD FAILED: ${msg}\n`);
@@ -88,7 +91,7 @@ async function buildSite(siteId, reviews) {
 
   // --- pages -------------------------------------------------------------
   for (const p of pages) {
-    const html = renderPage({ site, page: p, reviews, buildDate: BUILD_DATE });
+    const html = renderPage({ site, page: p, reviews, buildDate: BUILD_DATE, staging: STAGING });
     const md = renderMarkdownAlternate({ site, page: p, reviews });
     if (p.path === '/') {
       await writeFile(path.join(out, 'index.html'), html);
@@ -106,7 +109,7 @@ async function buildSite(siteId, reviews) {
   await writeFile(path.join(out, 'js', 'main.js'), MAIN_JS);
   await writeFile(path.join(out, 'favicon.svg'), FAVICON((PALETTES[site.palette] || PALETTES.royal).accent));
   await writeFile(path.join(out, 'sitemap.xml'), renderSitemap({ site, pages, buildDate: BUILD_DATE }));
-  await writeFile(path.join(out, 'robots.txt'), renderRobots({ site }));
+  await writeFile(path.join(out, 'robots.txt'), renderRobots({ site, staging: STAGING }));
   await writeFile(path.join(out, 'llms.txt'), renderLlmsTxt({ site, pages }));
   await writeFile(path.join(out, 'llms-full.txt'), renderLlmsFull({ site, pages, reviews }));
 
@@ -137,6 +140,7 @@ async function main() {
   }
 
   console.log(`\nBuilding ${targets.length} site(s) with ${reviews.length} customer review(s)\n`);
+  if (STAGING) console.log('  STAGING=1: every page carries noindex and robots.txt disallows everything.\n');
   if (!reviews.length) {
     console.log('  note: shared/reviews.json holds no live reviews yet.');
     console.log('        Review blocks render as empty and no AggregateRating is emitted.\n');

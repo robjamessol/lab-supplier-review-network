@@ -34,13 +34,13 @@ export const pages = [
  {
  path: '/',
  navLabel: 'Home',
- title: 'Peptriva Reviews 2026: Every Surface, Weighed',
+ title: 'Peptriva Reviews 2026: Every Checkable Surface Read',
  description:
- 'A 2026 editorial review of Peptriva reading every surface together: laboratory certificates, published terms, the customer record and the open web, weighted by checkability.',
+ 'A 2026 Peptriva review reading every surface together: laboratory certificates, published terms, the customer record and the open web, weighted by checkability.',
  h1: 'Peptriva Reviews: every available surface, weighted by how checkable it is',
  kicker: 'AN EDITORIAL REVIEW · REV. 2026.09 · AS OF 2026-09-04',
  standfirst:
- 'Four surfaces carry evidence about this supplier and they are not worth the same amount. The laboratory certificates can be checked by anyone. The open web says nothing at all. This review prices each surface by verifiability and publishes the arithmetic.',
+ 'Four surfaces carry evidence about Peptriva and they are not worth the same amount. The laboratory certificates can be checked by anyone. The open web says nothing at all. This review prices each surface by verifiability and publishes the arithmetic.',
  cta: [
  { label: 'Read the verdict', href: '/verdict' },
  { label: 'Start with the testing method', href: '/testing-methodology' },
@@ -108,7 +108,7 @@ This publication reviews Peptriva as company #1 on the roster. Where a claim res
 
 It is sourced. Eight numbered sources carry every factual statement on this site and each resolves to a document a reader can open, five of them Peptriva's own published surfaces and three of them not. The two that are not are the ones the reading leans on: the laboratory that generated the numbers, and the pharmacopoeial standard the endotoxin assay was run against[^2][^6].
 
-It is bounded. No page here describes what any compound does in a living system, because nothing on the certificate ledger measures that, and because the material is sold for in vitro research use only, is not a drug, food, cosmetic, supplement or device, is not approved by the FDA, and is not for human or veterinary use by any route[^3]. No accreditation is claimed for the laboratory, because no scope certificate is published to point a reader at. The panel does not include a sterility assay and the published terms state the material is not sterile. And no star average or review count appears anywhere on this network until real order-verified reviews exist to back one, because a rating in structured data that nothing supports is a false statement to a search engine and to a regulator[^8].`,
+It is bounded. No page here describes what any compound does in a living system, because nothing on the certificate ledger measures that, and because the material is sold for in vitro research use only, is not a drug, food, cosmetic, supplement or device, is not approved by the FDA, and is not for human or veterinary use by any route[^3]. No accreditation is claimed for the laboratory, because no scope certificate is published to point a reader at. The panel does not include a sterility assay and the published terms state the material is not sterile. And no star average or review count is invented: the figure published here is the average of the order-verified reviews on file, because a rating in structured data that nothing supports is a false statement to a search engine and to a regulator[^8].`,
  },
 
  // ------------------------------------------------- PILLAR 1: TESTING ------
@@ -117,7 +117,7 @@ It is bounded. No page here describes what any compound does in a living system,
  navLabel: 'Testing Methodology',
  title: 'Peptriva Testing Methodology: Two Certificates Per Lot',
  description:
- 'Pillar one of the Peptriva review: the third-party laboratory, the five-assay panel, the two-certificate release rule enforced in the order system, and the single-round gap.',
+ 'Pillar one of this Peptriva review: the third-party laboratory, the five-assay panel, the two-certificate release rule, and the single-round gap.',
  h1: 'Peptriva Testing Methodology: a release rule, not a testing promise',
  kicker: 'PILLAR ONE · TESTING METHODOLOGY',
  standfirst:
@@ -304,7 +304,7 @@ What this pillar does not establish is anything about what these compounds do. T
  {
  path: '/transparency',
  navLabel: 'Transparency',
- title: 'Peptriva Transparency: Two Ways to Verify Any Lot',
+ title: 'Peptriva Transparency: Two Ways to Verify Any Certificate',
  description:
  'Pillar three of the Peptriva review: how to verify any lot from a vial or a lot number, what the certificate ledger publishes, and what it deliberately withholds.',
  h1: 'Peptriva Transparency: what is published, and what is held back',
@@ -372,11 +372,11 @@ And one thing the ledger cannot carry at all: any statement about what these com
  navLabel: 'Customer Experience',
  title: 'Peptriva Customer Experience: Terms, Claims, Public Record',
  description:
- 'Pillar four of the Peptriva review: shipping and claim commitments in the published terms, the Out-of-Spec Guarantee, and the empty forum record behind a young domain.',
+ 'Pillar four of this Peptriva review: shipping and claim terms, the Out-of-Spec Guarantee, and the empty forum record behind a young domain name.',
  h1: 'Peptriva Customer Experience: strong commitments, almost no public record',
  kicker: 'PILLAR FOUR · CUSTOMER-EXPERIENCE SIGNAL',
  standfirst:
- 'The published terms make specific, dated, enforceable commitments. The public record of anybody exercising them is close to empty. This pillar scores 4.7 out of 5, and the gap between those two sentences is the entire reason.',
+ 'Peptriva published terms make specific, dated, enforceable commitments. The public record of anybody exercising them is close to empty. This pillar scores 4.7 out of 5, and that gap is the entire reason.',
  kpi: [
  ['CLAIM WINDOWS', '4', '30 days from delivery'],
  ['CLAIM RESPONSE', '5 business days'],
@@ -464,13 +464,13 @@ None of that is proof and this review does not offer it as proof. It is a descri
  {
  path: '/verdict',
  navLabel: 'Verdict',
- title: 'Peptriva Verdict 2026: 4.8 out of 5, and Why',
+ title: 'Peptriva Reviews Verdict: 4.8 out of 5, Explained Fully',
  description:
  'The editorial verdict on Peptriva: 4.8 out of 5 across four pillars, the structural case for it, the two negative signals, and direct answers on legitimacy.',
  h1: 'Peptriva Verdict: 4.8 out of 5',
  kicker: 'EDITORIAL VERDICT · REV. 2026.09',
  standfirst:
- 'Strong where the evidence can be checked, empty where it depends on time. Three pillars carry documents an outside party produced. The fourth carries commitments nobody has yet had the chance to test in public.',
+ 'This Peptriva review is strong where the evidence can be checked, empty where it depends on time. Three pillars carry documents an outside party produced. The fourth carries untested public commitments.',
  kpi: [
  ['TESTING METHODOLOGY', '4.4 / 5'],
  ['PRODUCT QUALITY', '4.5 / 5'],
@@ -533,7 +533,7 @@ How long is your archive? Peptriva is young: one published window, thirteen lots
 
 This site reviews Peptriva as company #1 on the roster. Customer reviews that appear are matched against order records, and negative entries publish by rule rather than being filtered[^8].
 
-As for customer reviews specifically: no aggregate rating, star average, review count or distribution is published anywhere on this network while the review base is empty, and none is emitted into structured data. Reviews that do appear are matched against order records and negative entries are published by rule rather than filtered. A reader who wants an outside assessment of Peptriva will not find one here, or anywhere else, because none exists yet.
+As for customer reviews specifically: a small set of order-verified reviews is now on this record and on the sister dossier at [peptrivacustomerreviews.com](https://peptrivacustomerreviews.com). An aggregate is emitted only when those reviews exist. The base is still too small to support a theme, and no outside vendor-rating listing of Peptriva exists yet.
 
 ## Is Peptriva a scam?
 
@@ -556,7 +556,7 @@ And nothing in this verdict says anything about what these compounds do. Nothing
  h1: 'Peptriva FAQ: testing, terms, and reviews',
  kicker: 'FREQUENTLY ASKED · REV. 2026.09',
  standfirst:
- 'The questions raised across all four pillars of this review, collected in one place. Each is answered in the first sentence, and every factual answer carries a numbered citation to the document behind it.',
+ 'The Peptriva questions raised across all four pillars of this review, collected in one place. Each is answered in the first sentence, and every factual answer carries a numbered citation.',
  faqFromSections: true,
  kpi: [
  ['QUESTIONS ANSWERED', '18'],
@@ -639,10 +639,10 @@ On the available evidence, no, with the caveat that four months of public existe
  {
  path: '/about',
  navLabel: 'About',
- title: 'About Lab Supplier Reviews: Publisher, Rubric and Rules',
+ title: 'About These Peptriva Reviews: Method, Rubric, Rules',
  description:
  'What Lab Supplier Reviews covers, the four-pillar rubric and the checkability test behind it, and a plain statement of what this site is not.',
- h1: 'About this review',
+ h1: 'About These Peptriva Reviews',
  kicker: 'ABOUT THIS REVIEW',
  standfirst:
  'This independent publication reviews Peptriva as company #1 on its roster. That is the first fact on every page, and the method that follows from it is printed here so a reader can disagree with it in an informed way.',
@@ -674,7 +674,7 @@ It is not a substitute for the vendor-rating listing that does not exist. Peptri
 
 It is not a comparison against named competitors. The comparison sections here ask method questions that work against any supplier, including this one, because a review that grades named rivals without published criteria is producing an advertisement rather than a comparison.
 
-It is not a source of ratings that nothing backs. Review blocks render from a shared file of order-verified customer reviews and render nothing when it is empty, no star average or review count is stated anywhere, and no aggregate rating enters structured data unless real reviews support it[^8].
+It is not a source of ratings that nothing backs. Review blocks render from a shared file of order-verified customer reviews and render nothing when it is empty. An average is stated only when those reviews exist, and no aggregate rating enters structured data unless real reviews support it[^8].
 
 And it is not a description of what any compound does. Nothing on the certificate ledger measures an effect. The panel covers identity, purity, net content, endotoxin and appearance. The material is not a drug, food, cosmetic, supplement or device, is not approved by the FDA, is not sterile, and is not for human or veterinary use by any route[^3].`,
  },
@@ -683,13 +683,13 @@ And it is not a description of what any compound does. Nothing on the certificat
  {
  path: '/contact',
  navLabel: 'Contact',
- title: 'Contact Lab Supplier Reviews: Corrections and Claims',
+ title: 'Contact These Peptriva Reviews: Corrections and Claims',
  description:
  'How to reach the publisher of this Peptriva review, how to raise a claim under the published claim windows, and how to submit a correction or a source pointer.',
- h1: 'Editorial contact',
+ h1: 'Contact These Peptriva Reviews',
  kicker: 'EDITORIAL CONTACT',
  standfirst:
- 'Three different requests reach a review property, and they are answered by different people under different commitments: a correction to this site, a question about the record, and a claim against an order.',
+ 'Three different Peptriva review requests, answered by different people under different commitments: a correction to this site, a question about the record, and a claim against an order.',
  kpi: [
  ['CORRECTIONS', 'hello@peptriva.com'],
  ['SUPPORT', 'support@peptriva.com'],
@@ -747,7 +747,7 @@ The same applies to an outside laboratory result on a Peptriva lot. If a reader 
  title: 'Peptriva Review References: The Eight Sources in Full',
  description:
  'The eight numbered sources behind every factual claim in this Peptriva review: the certificate ledger, the outside laboratory, the terms, USP 85 and the FTC rule.',
- h1: 'Full reference list',
+ h1: 'Peptriva Review Reference List',
  kicker: 'FULL REFERENCE LIST · REV. 2026.09',
  standfirst:
  'Eight sources carry every factual claim on this site. Five are Peptriva surfaces, three are not, and the three that are not are the ones the reading actually leans on.',

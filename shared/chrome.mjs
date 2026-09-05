@@ -22,7 +22,35 @@ export const DISCLOSURE_LONG = '';
 
 export const DISCLOSURE_SHORT = PUBLISHER.disclosureShort;
 
-export function footer({ blurb, extraColumn }) {
+/** The four Peptriva review properties. Used for footer and in-page sister links. */
+export const NETWORK = [
+  {
+    id: 'peptriva-review',
+    label: 'Peptriva Review',
+    href: 'https://peptrivareview.com',
+    note: 'Editorial issue and 4.8 verdict',
+  },
+  {
+    id: 'peptriva-reviews',
+    label: 'Peptriva Reviews',
+    href: 'https://peptrivareviews.com',
+    note: 'Four-surface review',
+  },
+  {
+    id: 'peptriva-customer-reviews',
+    label: 'Peptriva Customer Reviews',
+    href: 'https://peptrivacustomerreviews.com',
+    note: 'Customer review dossier',
+  },
+  {
+    id: 'peptriva-ratings',
+    label: 'Peptriva Ratings',
+    href: 'https://peptrivaratings.com',
+    note: 'Hundred-point rubric, 95.6',
+  },
+];
+
+export function footer({ blurb, extraColumn, siteId }) {
   const columns = [
     {
       title: 'The record',
@@ -41,6 +69,10 @@ export function footer({ blurb, extraColumn }) {
         { label: 'Contact', href: '/contact' },
         { label: 'Questions', href: '/faq' },
       ],
+    },
+    {
+      title: 'Related Peptriva reviews',
+      links: NETWORK.filter((n) => n.id !== siteId).map((n) => ({ label: n.label, href: n.href })),
     },
     {
       title: 'Machine readable',

@@ -1,5 +1,5 @@
 import { SUBJECT, REFERENCES } from '../../shared/facts.mjs';
-import { PUBLISHER, footer } from '../../shared/chrome.mjs';
+import { PUBLISHER, NETWORK, footer } from '../../shared/chrome.mjs';
 import { pages } from './pages.mjs';
 
 export const site = {
@@ -12,9 +12,10 @@ export const site = {
   wordmark: 'Lab Supplier <span>Customer Reviews</span>',
   palette: 'royal',
   paper: '#F3F4F6',
-  assetVersion: '1',
+  assetVersion: '2',
   publisher: { ...PUBLISHER, name: 'Lab Supplier Customer Reviews', url: 'https://peptrivacustomerreviews.com' },
   subject: { name: SUBJECT.name, url: SUBJECT.url, description: SUBJECT.description },
+  network: NETWORK,
   nav: [
     { label: 'Reddit Mentions', href: '/reddit-mentions' },
     { label: 'Independent Listings', href: '/independent-listings' },
@@ -27,6 +28,7 @@ export const site = {
   ],
   references: REFERENCES,
   footer: footer({
+    siteId: 'peptriva-customer-reviews',
     blurb:
       'The customer review record for Peptriva, company #1 on this independent publication\'s roster, read venue by venue, including the venues that carry nothing.',
   }),

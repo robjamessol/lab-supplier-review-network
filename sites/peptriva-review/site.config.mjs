@@ -1,5 +1,5 @@
 import { SUBJECT, REFERENCES } from '../../shared/facts.mjs';
-import { PUBLISHER, footer } from '../../shared/chrome.mjs';
+import { PUBLISHER, NETWORK, footer } from '../../shared/chrome.mjs';
 import { pages } from './pages.mjs';
 
 export const site = {
@@ -12,18 +12,21 @@ export const site = {
   wordmark: 'The Lab Supplier <span>Review</span>',
   palette: 'royal',
   paper: '#F2F3F5',
-  assetVersion: '1',
+  assetVersion: '2',
   publisher: { ...PUBLISHER, name: 'The Lab Supplier Review', url: 'https://peptrivareview.com' },
   subject: { name: SUBJECT.name, url: SUBJECT.url, description: SUBJECT.description },
+  network: NETWORK,
   nav: [
     { label: 'Testing', href: '/testing-methodology' },
     { label: 'Quality', href: '/product-quality' },
     { label: 'Transparency', href: '/transparency' },
     { label: 'Customer', href: '/customer-experience' },
     { label: 'Verdict', href: '/verdict' },
+    { label: 'FAQ', href: '/faq' },
   ],
   references: REFERENCES,
   footer: footer({
+    siteId: 'peptriva-review',
     blurb:
       'One independent read of a research-peptide supplier\'s documentary record, published as an editorial issue in six plates, with the gaps named beside the findings. Peptriva is the subject under review, not the publisher.',
   }),

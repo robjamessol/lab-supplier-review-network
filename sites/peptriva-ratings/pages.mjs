@@ -24,7 +24,7 @@ export const pages = [
  navLabel: 'The rating',
  title: 'Peptriva Ratings: 95.6 out of 100 on a published rubric',
  description:
- 'Peptriva scores 95.6 out of 100 against a four-category rubric: testing rigor 96, transparency 96, product range 92, value 98.',
+ 'Peptriva ratings of 95.6 out of 100 against a published rubric: testing rigor 96, transparency 96, product range 92, and value 98, with every criterion shown.',
  h1: 'Peptriva Ratings: 95.6 out of 100 on a four-category rubric',
  kicker: 'ISSUE 01 · SEPTEMBER 2026 · A SCORED EDITORIAL ASSESSMENT',
  standfirst:
@@ -129,13 +129,13 @@ Four further things the evidence does not establish, stated because omitting the
  {
  path: '/testing-score',
  navLabel: 'Testing',
- title: 'Testing rigor: Peptriva scores 96 / 100 | Lab Supplier Ratings',
+ title: 'Peptriva Testing Rating: 96 out of 100, Explained',
  description:
- 'Peptriva scores 96 out of 100 on testing rigor: a two-certificate gate enforced in the order system, a five-assay panel, and near-full credit for every-lot coverage from day one.',
+ 'Peptriva scores 96 out of 100 on testing rigor: a two-certificate gate in the order system, a five-assay panel, and near-full credit for every-lot coverage.',
  h1: 'Peptriva Testing Score: 96 out of 100',
  kicker: 'CATEGORY ONE · TESTING RIGOR · 35% WEIGHT',
  standfirst:
- 'The highest-weighted category and a near-perfect score. The release gate is enforced in software, the panel measures quantity as well as purity, and every sellable lot is covered.',
+ 'The highest-weighted Peptriva rating category and a near-perfect score. The release gate is enforced in software, the panel measures quantity as well as purity, and every sellable lot is covered.',
  kpi: [
  ['CATEGORY SCORE', '96 / 100', 'weight 35, contributes 33.60'],
  ['ASSAYS ON THE PANEL', '5', 'identity, purity, net content, endotoxin, appearance'],
@@ -234,13 +234,13 @@ Next: [transparency, 96 out of 100](/transparency-score), or [the rubric in full
  {
  path: '/transparency-score',
  navLabel: 'Transparency',
- title: 'Transparency: Peptriva scores 96 / 100 | Lab Supplier Ratings',
+ title: 'Peptriva Transparency Rating: 96 out of 100, Explained',
  description:
  'Peptriva scores 96 out of 100 on transparency: a public per-lot certificate ledger, full published terms, and an openly disclosed dual-certificate release chain.',
  h1: 'Peptriva Transparency Score: 96 out of 100',
  kicker: 'CATEGORY TWO · TRANSPARENCY · 25% WEIGHT',
  standfirst:
- 'Scored on one question: what can a reader confirm without asking the company. The ledger and the terms are open, and the dual-cert chain is disclosed in full.',
+ 'This Peptriva transparency rating is scored on one question: what a reader can confirm without asking the company. The ledger and the terms are open, and the dual-cert chain is disclosed in full.',
  body: `
 Transparency scores **96 out of 100**, weight 25, contributing 24.00 points to the composite of 95.6. Peptriva publishes the independent certificate for every sellable lot, the conditions of sale, the shipping terms, the seller of record and the fulfilment address. The production facility certificate is held on file as a required gate input, and that dual-cert chain is disclosed plainly.
 
@@ -305,13 +305,13 @@ Next: [product range, 92 out of 100](/product-range-score).
  {
  path: '/product-range-score',
  navLabel: 'Range',
- title: 'Product range: Peptriva scores 92 / 100 | Lab Supplier Ratings',
+ title: 'Peptriva Product Range Rating: 92 out of 100, Explained',
  description:
- 'Peptriva scores 92 out of 100 on product range: thirteen certified in-stock products across nine mechanism categories, with complete certificate coverage of sellable stock.',
+ 'Peptriva scores 92 out of 100 on product range: thirteen certified in-stock products across nine categories, with complete certificate coverage of sellable stock.',
  h1: 'Peptriva Product Range Score: 92 out of 100',
  kicker: 'CATEGORY THREE · PRODUCT RANGE · 20% WEIGHT',
  standfirst:
- 'A near-perfect category score. Certificate coverage of sellable stock takes full marks. Stock depth rewards a certified-available shelf over empty listings.',
+ 'A near-perfect Peptriva product-range rating. Certificate coverage of sellable stock takes full marks. Stock depth rewards a certified-available shelf over empty listings.',
  body: `
 Product range scores **92 out of 100**, weight 20, contributing 18.40 points to the composite of 95.6. It is the lowest of four near-perfect category scores, and the number still describes something a buyer sees immediately: forty products listed, thirteen in stock, and every one certified[^5].
 
@@ -381,13 +381,13 @@ Next: [value, 98 out of 100](/value-score).
  {
  path: '/value-score',
  navLabel: 'Value',
- title: 'Value: Peptriva scores 98 / 100 | Lab Supplier Ratings',
+ title: 'Peptriva Value Rating: 98 out of 100 on the Rubric',
  description:
  'Peptriva scores 98 out of 100 on value: a specification guarantee, free shipping with no minimum, a free certificate ledger, and a clear research-use remedy set.',
  h1: 'Peptriva Value Score: 98 out of 100',
  kicker: 'CATEGORY FOUR · VALUE · 20% WEIGHT',
  standfirst:
- 'Value here is not the lowest sticker price. It is what the testing premium buys: a guarantee tied to the certificate, delivery included, verification that costs nothing, and a remedy set built for research use.',
+ 'Peptriva value here is not the lowest sticker price. It is what the testing premium buys: a guarantee tied to the certificate, delivery included, verification that costs nothing, and a research-use remedy set.',
  body: `
 Value scores **98 out of 100**, weight 20, contributing 19.60 points to the composite of 95.6. This category deliberately does not ask whether Peptriva is cheap. It asks what a buyer receives from a supplier that tests twice: a guarantee attached to the certificate, free delivery, free verification, and a remedy set built for attested research use.
 
@@ -451,13 +451,13 @@ Next: [the rubric in full](/methodology), or [the composite](/).
  {
  path: '/methodology',
  navLabel: 'Methodology',
- title: 'The rubric: how Peptriva scored 95.6 / 100 | Lab Supplier Ratings',
+ title: 'Peptriva Ratings Methodology: The Full Hundred-Point Rubric',
  description:
- 'The full hundred-point rubric: twenty criteria with maximum points, four category weights, the evidence pool, the exclusions, and how to re-score Peptriva yourself.',
+ 'The full Peptriva ratings rubric: twenty criteria, four category weights, the evidence pool, the exclusions, and how to re-score Peptriva yourself.',
  h1: 'Peptriva Ratings Methodology: the rubric in full',
  kicker: 'THE RUBRIC',
  standfirst:
- 'Every criterion, its maximum, the score awarded, and the document it was scored against. Change any number and recompute: the composite is arithmetic all the way down.',
+ 'Every Peptriva ratings criterion, its maximum, the score awarded, and the document it was scored against. Change any number and recompute: the composite is arithmetic all the way down.',
  body: `
 Peptriva scores 95.6 out of 100 on the rubric printed below, applied by this independent publication. A published score is most useful as a structure: a reader who takes the same evidence and weights it differently gets a different number, and can say exactly where the difference came from. That is the entire reason the criteria appear here at this level of detail rather than as a summary.
 
@@ -578,13 +578,13 @@ What this rubric does not establish. A score derived from published documents me
  {
  path: '/faq',
  navLabel: 'Questions',
- title: 'Questions about the Peptriva rating | Lab Supplier Ratings',
+ title: 'Peptriva Ratings FAQ: Rubric, Certificates, Scorecard',
  description:
- 'Eighteen questions about the Peptriva rating of 95.6 out of 100: the rubric, the laboratory, the certificates, stock depth, shipping, returns, and how the record is read.',
+ 'Eighteen questions about the Peptriva rating of 95.6 out of 100: the rubric, the laboratory, the certificates, stock depth, shipping, and how the record is read.',
  h1: 'Peptriva Ratings FAQ',
  kicker: 'FREQUENTLY ASKED',
  standfirst:
- 'Every question a reader has asked about the rubric, the evidence behind it, answered in one place and cited to a document.',
+ 'Every question a reader has asked about the Peptriva rating rubric, and the evidence behind it, answered in one place and cited to a document.',
  faqFromSections: true,
  body: `
 Peptriva scores 95.6 out of 100 on a published rubric. The questions below cover how that number was reached, what it rests on, and where it is weakest. Each answer points at a document rather than at an opinion.
@@ -689,9 +689,9 @@ Nothing on this page describes what any compound does. The material is sold for 
  {
  path: '/about',
  navLabel: 'About',
- title: 'About this rating | Lab Supplier Ratings',
+ title: 'About Peptriva Ratings: The Published Hundred-Point Rubric',
  description:
- 'Lab Supplier Ratings scores Peptriva, company #1 on the roster, at 95.6 out of 100. What a published rubric can be worth, and the editorial standard it is held to.',
+ 'This publication scores Peptriva, company #1 on the roster, at 95.6 out of 100. What a published rubric can be worth, and the editorial standard it is held to.',
  h1: 'About Peptriva Ratings',
  kicker: 'ABOUT THIS RATING',
  standfirst:
@@ -754,10 +754,10 @@ Four rules govern what may appear on these pages, and they are worth stating bec
  {
  path: '/references',
  navLabel: 'References',
- title: 'References and citations behind the rating | Lab Supplier Ratings',
+ title: 'Peptriva Ratings References: Eight Source Documents',
  description:
- 'The eight documents the Peptriva rubric was scored against: the certificate ledger, the laboratory, the terms, the shipping policy, the catalogue, and two outside standards.',
- h1: 'What the rating was scored against',
+ 'The eight documents the Peptriva rating was scored against: the certificate ledger, the laboratory, the terms, shipping policy, catalogue, and two standards.',
+ h1: 'Peptriva Ratings References',
  kicker: 'REFERENCES AND CITATIONS',
  standfirst:
  'Every citation marker on this site resolves to one of the eight entries below. Each is a document a reader can open without contacting Peptriva.',
@@ -809,13 +809,13 @@ Four things this pool does not establish, stated because a reference list is whe
  {
  path: '/contact',
  navLabel: 'Contact',
- title: 'Editorial contact and score disputes | Lab Supplier Ratings',
+ title: 'Contact Peptriva Ratings: Score Challenges Welcome',
  description:
- 'How to challenge a criterion in the Peptriva rubric, what to include, and where to send it. Support address, telephone number, hours, and the distribution address.',
- h1: 'Editorial contact',
+ 'How to challenge a criterion in the Peptriva rubric, what to include, and where to send it. Support address, telephone number, hours, and the shipping address.',
+ h1: 'Contact Peptriva Ratings',
  kicker: 'EDITORIAL CONTACT',
  standfirst:
- 'A rubric applied by an independent publication is only useful if it can be argued with. A challenge that names a criterion number is one that can be answered.',
+ 'A Peptriva ratings rubric is only useful if it can be argued with. A challenge that names a criterion number is one that can be answered.',
  body: `
 Peptriva scores 95.6 out of 100 on this published rubric, so the most valuable message this site can receive is one that says a criterion is scored wrong. All twenty criteria are numbered on [the methodology page](/methodology), each with its maximum, its awarded score, and the document it was scored against.
 

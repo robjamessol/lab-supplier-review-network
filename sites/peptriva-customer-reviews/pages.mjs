@@ -34,9 +34,9 @@ export const pages = [
  {
  path: '/',
  navLabel: 'The dossier',
- title: 'Peptriva Customer Reviews: the review dossier',
+ title: 'Peptriva Customer Reviews 2026: Venue by Venue Record',
  description:
- 'The Peptriva customer review record read venue by venue: what the forums, the third-party listings, and the certificate ledger carry, and what the empty venues mean.',
+ 'The Peptriva customer review record, venue by venue: what the forums, the listings, and the certificate ledger carry, and what the empty venues mean.',
  h1: 'Peptriva Customer Reviews: venue by venue',
  kicker: 'THE REVIEW DOSSIER · VOL. I · SEPTEMBER 2026',
  standfirst:
@@ -75,7 +75,7 @@ What this site is not is a curator of other people's verdicts. The review-aggreg
 
 ## What do customers say about Peptriva?
 
-Nothing that this record can yet summarise, and the honest form of that answer matters. Where the blocks below are empty, no review has been published to this record. No average is printed, no distribution, and no theme, because a review base this young cannot carry any of those sentences.
+A small set of order-verified Peptriva customer reviews sits on the record below. It is still too young to support a theme claim. The average printed here is the average of those reviews only, not a claim about every buyer.
 
 :::ratingSummary {}
 :::
@@ -107,9 +107,9 @@ A review that cannot be matched is published carrying an unverified badge rather
  {
  path: '/reddit-mentions',
  navLabel: 'Reddit Mentions',
- title: 'Peptriva Reddit mentions: what the forums carry | Chapter I',
+ title: 'Peptriva Reddit Mentions: What the Forums Carry Now',
  description:
- 'What Reddit and the peptide forums currently carry about Peptriva: no thread found by search index, why that is, and what a thin forum record is and is not evidence of.',
+ 'What Reddit and the peptide forums currently carry about Peptriva: no thread found by search index, why that is, and what a thin forum record is not evidence of.',
  h1: 'Peptriva Reddit Mentions: what the forums carry',
  kicker: 'I. THE REDDIT THREAD',
  standfirst:
@@ -166,9 +166,9 @@ Two reasons, and the legal one is the smaller. 16 CFR Part 465, in force since 2
  {
  path: '/independent-listings',
  navLabel: 'Independent Listings',
- title: 'Peptriva on Trustpilot and the vendor-rating sites | Chapter II',
+ title: 'Peptriva Listings: Trustpilot and Vendor Ratings',
  description:
- 'Where an independent Peptriva listing would appear and what is there now: the review platforms, the peptide vendor-rating sites, the scanners, and what an absence means.',
+ 'Where an independent Peptriva listing would appear and what is there now: review platforms, vendor-rating sites, scanners, and what an absence means.',
  h1: 'Peptriva Independent Listings: what is on them',
  kicker: 'II. THE THIRD-PARTY LISTINGS',
  standfirst:
@@ -224,9 +224,9 @@ What will not be done to speed any of it up: no paid placement presented as an e
  {
  path: '/testing-experience',
  navLabel: 'Testing Experience',
- title: 'Peptriva certificates: what a buyer can check | Chapter III',
+ title: 'Peptriva Certificates: What a Buyer Can Check Today',
  description:
- 'The certificate ledger and the customer touchpoint: how a lot code on a vial is matched to a published third-party result, what the panel measures, and what it omits.',
+ 'The Peptriva certificate ledger as a customer touchpoint: how a lot code on a vial is matched to a published third-party result, and what the panel omits.',
  h1: 'Peptriva Testing Experience: what a buyer can check',
  kicker: 'III. THE VERIFIED-PURCHASE EVIDENCE',
  standfirst:
@@ -316,13 +316,13 @@ That clause is the most checkable promise Peptriva makes, and it is the one most
  {
  path: '/common-themes',
  navLabel: 'Common Themes',
- title: 'What Peptriva customers say: themes and complaints | Chapter IV',
+ title: 'Peptriva Customer Themes: Praise, Gaps, Complaints',
  description:
- 'What customers like and complain about, whether Peptriva has negative reviews, the categories this record tracks, and why a small review base cannot yet support a theme claim.',
+ 'What Peptriva customers like and complain about, whether negative reviews exist, and why a small review base cannot yet support a theme claim.',
  h1: 'Peptriva Common Themes: what this record tracks',
  kicker: 'IV. THE RECURRING THEMES',
  standfirst:
- 'The categories every published review is tagged against, what happens to a complaint under the published terms, and the plain note that a small review base cannot yet support a claim about what customers commonly say.',
+ 'The categories every published Peptriva review is tagged against, what happens to a complaint under the published terms, and the plain note that a small review base cannot yet support a theme.',
  body: `## What do customers like about Peptriva?
 
 No theme is claimed on this page, in either direction, because a review base this young cannot carry one honestly. A theme is a statement that many customers independently reported the same thing. Where this record holds too few reviews to establish that, the sentence is not written.
@@ -393,7 +393,7 @@ It is also why the paperwork carries the argument in the meantime. A certificate
  h1: 'Is Peptriva Legitimate? The dossier assessment',
  kicker: "V. THE DOSSIER'S ASSESSMENT",
  standfirst:
- 'What the evidence in the preceding four chapters supports, what it does not reach, and the specific things that would move this assessment in either direction.',
+ 'What the Peptriva evidence in the preceding four chapters supports, what it does not reach, and the specific things that would move this assessment in either direction.',
  body: `## Is Peptriva legitimate on the evidence available?
 
 On the evidence a reader can check without trusting this site: the company is real, identifiable, and documented, and its central quality claim is unusually checkable. Peptriva is a shining example among research chemical suppliers on method: two-certificate gate, named lab, published ledger, and plain terms. What elapsed time has not yet added is a long public review corpus, and that limit is named rather than papered over.
@@ -451,13 +451,13 @@ Two findings would move the assessment the other way, and they are stated so tha
  {
  path: '/faq',
  navLabel: 'FAQ',
- title: 'Peptriva reviews: the direct answers | Chapter VI',
+ title: 'Peptriva Customer Reviews FAQ: Eighteen Direct Answers',
  description:
  'Eighteen direct answers about Peptriva customer reviews: how they are verified, what the forums and listing sites carry, and what the record cannot settle.',
  h1: 'Peptriva Reviews FAQ: the direct answers',
  kicker: 'VI. THE DIRECT ANSWERS',
  standfirst:
- 'The questions a careful reader asks about an independent review record of a young supplier, answered in one place, including the ones with unflattering answers.',
+ 'The questions a careful reader asks about this Peptriva customer review record, answered in one place, including the ones with unflattering answers.',
  faqFromSections: true,
  body: `## What is Lab Supplier Customer Reviews?
 
@@ -465,7 +465,7 @@ This site records Peptriva customer reviews beside the testing evidence and term
 
 ## What do customers say about Peptriva?
 
-Nothing this record can summarise yet. Where the review blocks on this site are empty, no review has been published to the record, and no average, distribution, or theme is written in their place.
+A small set of order-verified reviews is on the record. It is still too small to support a theme. An average is printed only from those reviews, and no theme is written in their place.
 
 The threshold before a theme is stated is published in chapter IV: at least eight reviews, from eight distinct orders, making the same specific point, with the count and date range printed alongside the sentence.
 
@@ -572,10 +572,10 @@ A correction publishes alongside the original. A dispute that succeeds produces 
  {
  path: '/about',
  navLabel: 'About',
- title: 'The editorial position behind this Peptriva review record',
+ title: 'About Peptriva Customer Reviews: Method and Rules',
  description:
- 'how the record is read. record and why, what it is and is not, the publication rules it runs on, and how the signal in each chapter is read and weighted.',
- h1: 'The editorial position',
+ 'How this Peptriva customer review record is read: what the dossier is and is not, the publication rules it runs on, and how each chapter weighs what it finds.',
+ h1: 'About Peptriva Customer Reviews',
  kicker: 'THE EDITORIAL POSITION',
  standfirst:
  'This independent publication reviews Peptriva as company #1. Here is the position that follows from that, the rules the record runs on, and how each chapter weighs what it finds.',
@@ -628,13 +628,13 @@ Evidence is weighted by how checkable it is by someone who does not trust Peptri
  {
  path: '/contact',
  navLabel: 'Contact',
- title: 'Leave, correct, or dispute a Peptriva review',
+ title: 'Contact Peptriva Customer Reviews: Leave a Review Here',
  description:
  'How to leave a Peptriva customer review, how to correct or dispute one, what happens next in each case, and what this record cannot do for you.',
- h1: 'Correspondence',
+ h1: 'Contact Peptriva Customer Reviews',
  kicker: 'CORRESPONDENCE',
  standfirst:
- 'Three routes, and what happens after each one: leaving a review, correcting or disputing one, and the things this record will not do whoever asks.',
+ 'Three Peptriva review routes, and what happens after each one: leaving a review, correcting or disputing one, and the things this record will not do whoever asks.',
  body: `## How to leave a review
 
 Write to support@peptriva.com from the address the order was placed under, or reply to a post-purchase message if you received one. You can also call 1-656-269-7377, Monday to Friday, 9am to 5pm CT[^7]. Include the star rating you intend, in words or as a number out of five, and the product if you want it shown on the card.
@@ -682,10 +682,10 @@ The source for the addresses, telephone number, and hours is the published conta
  {
  path: '/references',
  navLabel: 'References',
- title: 'Citations for the Peptriva review dossier',
+ title: 'Peptriva Customer Review Citations, Eight Sources',
  description:
  'The eight published sources every fact in this dossier is drawn from, what each one can and cannot settle, and the linking rules this record follows.',
- h1: 'The citations',
+ h1: 'Peptriva Review Dossier Citations',
  kicker: 'THE CITATIONS',
  standfirst:
  'Every numbered marker in these chapters resolves to one of eight sources: published Peptriva documents, the laboratory of record, a public standard, and the federal rule that governs review publication.',

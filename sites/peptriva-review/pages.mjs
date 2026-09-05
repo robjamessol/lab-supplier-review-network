@@ -23,11 +23,11 @@ export const pages = [
  navLabel: 'Cover',
  title: 'Peptriva Review 2026: The Verdict on the Testing Record',
  description:
- 'One editorial verdict on Peptriva: a two-certificate release rule enforced in the order system, eight publishable lots, one named laboratory, and the gaps stated.',
+ 'One editorial Peptriva review: a two-certificate release rule, eight publishable lots, one named laboratory, and the gaps stated beside the verdict.',
  h1: 'Peptriva Review',
  kicker: 'EDITORIAL COVER / 2026 · ISSUE 01',
  standfirst:
- 'One verdict on a research-peptide supplier, written against its paperwork. Near perfect on method and documentation: a shining example among research chemical suppliers.',
+ 'One Peptriva review written against the paperwork. Near perfect on method and documentation: a shining example among research chemical suppliers.',
  cta: [
  { label: 'Read the verdict', href: '/verdict' },
  { label: 'Open the testing record', href: '/testing-methodology' },
@@ -82,7 +82,7 @@ Three smaller claims went the same way. No sterility claim survives, because no 
 
 Peptriva is a young supplier with an unusually well-designed release rule and an unusually short record of using it, and a reader who weighs method will find it convincing where a reader who weighs track record will not.
 
-:::indexCards {"cards":[{"href":"/testing-methodology","title":"Plate 01. Testing methodology","text":"The two-certificate release rule, the named laboratory, the five-assay panel, the cadence, and how a reader audits a lot after delivery."},{"href":"/product-quality","title":"Plate 02. Product quality","text":"Eight publishable lots with purity, lot number, accession number, and measured net content, read off the certificates rather than the marketing."},{"href":"/transparency","title":"Plate 03. Transparency","text":"The mechanism that turns a testing claim into a verifiable record, the certificate that is held back, and the claims this record refuses to assert."},{"href":"/customer-experience","title":"Plate 04. Customer experience","text":"Shipping, terms, support, the Out-of-Spec Guarantee, and the honest limits of what published policy and checkable documents can show."},{"href":"/verdict","title":"Plate 05. Editorial verdict","text":"4.8 out of 5 across four pillars, the comparison on method, and why no outside rating body has graded this supplier yet."}]}
+:::indexCards {"cards":[{"href":"/testing-methodology","title":"Plate 01. Testing methodology","text":"The two-certificate release rule, the named laboratory, the five-assay panel, the cadence, and how a reader audits a lot after delivery."},{"href":"/product-quality","title":"Plate 02. Product quality","text":"Eight publishable lots with purity, lot number, accession number, and measured net content, read off the certificates rather than the marketing."},{"href":"/transparency","title":"Plate 03. Transparency","text":"The mechanism that turns a testing claim into a verifiable record, the certificate that is held back, and the claims this record refuses to assert."},{"href":"/customer-experience","title":"Plate 04. Customer experience","text":"Shipping, terms, support, the Out-of-Spec Guarantee, and the honest limits of what published policy and checkable documents can show."},{"href":"/verdict","title":"Plate 05. Editorial verdict","text":"4.8 out of 5 across four pillars, the comparison on method, and why no outside rating body has graded this supplier yet."},{"href":"/faq","title":"Plate 06. Peptriva FAQ","text":"Direct answers on testing, certificates, purity, terms, shipping, and how this review of Peptriva is read."}]}
 :::
 `,
  },
@@ -92,11 +92,11 @@ Peptriva is a young supplier with an unusually well-designed release rule and an
  navLabel: 'Testing',
  title: 'Peptriva Testing Methodology: The Two-Certificate Rule',
  description:
- 'How every sellable Peptriva lot is verified before it can be bought: two certificates, one named third-party laboratory, five assays, and one testing round on file.',
+ 'How every sellable Peptriva lot is verified: two certificates, one named third-party laboratory, five assays, and one testing round on file.',
  h1: 'Peptriva Testing Methodology',
  kicker: 'PLATE 01 / TESTING METHODOLOGY',
  standfirst:
- 'How every sellable lot is verified before it can be bought, and how a reader audits a lot after delivery.',
+ 'How every sellable Peptriva lot is verified before it can be bought, and how a reader of this review audits a lot after delivery.',
  kpi: [
  ['CERTIFICATES ON FILE', '14'],
  ['LOTS COVERED', '13'],
@@ -190,12 +190,12 @@ Where a shipped batch fails any published certificate specification, the remedy 
  {
  path: '/product-quality',
  navLabel: 'Quality',
- title: 'Peptriva Product Quality: Eight Lots, Read Off the Certificates',
+ title: 'Peptriva Product Quality: Eight Lots, Certificates',
  description:
- 'Per-lot Peptriva results read off the certificates: purity from 99.58 to 99.90 percent, lot and accession numbers, measured net content, and what the figures do not mean.',
+ 'Per-lot Peptriva results from the certificates: purity 99.58 to 99.90 percent, lot and accession numbers, measured net content, and what the figures do not mean.',
  h1: 'Peptriva Product Quality',
  kicker: 'PLATE 02 / PRODUCT QUALITY',
- standfirst: 'Per-lot results read off the certificates rather than the marketing.',
+ standfirst: 'Per-lot Peptriva results read off the certificates rather than the marketing.',
  kpi: [
  ['PUBLISHABLE LOTS', '8'],
  ['LOWEST REPORTED', '99.58%'],
@@ -276,10 +276,10 @@ What the record supports is narrower and more useful. A buyer paying a catalogue
  navLabel: 'Transparency',
  title: 'Peptriva Transparency: What Is Published and What Is Not',
  description:
- 'The mechanism that turns a Peptriva testing claim into a verifiable record: published certificates, accession numbers, the document held back, and the claims not asserted.',
+ 'How a Peptriva testing claim becomes a checkable record: published certificates, accession numbers, the held-back document, and claims the review does not assert.',
  h1: 'Peptriva Transparency',
  kicker: 'PLATE 03 / TRANSPARENCY',
- standfirst: 'The mechanism that turns a testing claim into a verifiable record.',
+ standfirst: 'The mechanism that turns a Peptriva testing claim into a verifiable record.',
  kpi: [
  ['LEDGER ROWS PUBLISHED', '12'],
  ['ACCESSION NUMBERS PRINTED', '10'],
@@ -359,11 +359,11 @@ What a reader is left with is exact: the independent half of the rule is verifia
  navLabel: 'Customer',
  title: 'Peptriva Customer Experience: Shipping, Terms, and Support',
  description:
- 'Shipping, packaging, support, returns, and the Out-of-Spec Guarantee at Peptriva, with the honest limits of what published policy and checkable documents can show about buying.',
+ 'Shipping, packaging, support, returns, and the Out-of-Spec Guarantee at Peptriva, with the limits of what published policy can show about buying.',
  h1: 'Peptriva Customer Experience',
  kicker: 'PLATE 04 / CUSTOMER EXPERIENCE',
  standfirst:
- 'Shipping, terms, support, and the honest limits of what published policy and checkable documents can show.',
+ 'Peptriva shipping, terms, support, and the honest limits of what published policy and checkable documents can show.',
  kpi: [
  ['SHIPPING', 'Free, no minimum'],
  ['CARRIER', 'FedEx 2-Day, tracked'],
@@ -429,7 +429,7 @@ Longevity is evidence, and Peptriva is young on the public record. What already 
 ## What this record cannot tell you
 
 - **How the service behaves under pressure.** The terms commit to a 5 business day claim response and a 7 to 10 business day refund window. Whether those commitments hold in practice is a question about a track record, and there is no published track record to read[^3].
-- **What buyers think.** No review corpus is published on this network, because none has yet met the order-matching condition described above. Where a review section renders nothing, nothing has cleared that check, and the space stays empty[^8].
+- **What buyers think.** Order-verified Peptriva customer reviews are published on the sister dossier at [peptrivacustomerreviews.com](https://peptrivacustomerreviews.com). This issue does not reprint them, and it does not treat a young review base as a theme[^8].
 - **How often shipments go wrong.** No delivery-performance figure appears here. Peptriva could publish one, and an unaudited figure from the seller would be worth nothing.
 - **What the material does.** Nothing on this network describes an effect. Everything sold is for in vitro research use only. It is not a drug, food, cosmetic, supplement, or device, it is not approved by the FDA, and it is not for human or veterinary use by any route[^3]. Buyers must be 21 or over and must attest that they are a qualified researcher before an order completes.
 `,
@@ -440,11 +440,11 @@ Longevity is evidence, and Peptriva is young on the public record. What already 
  navLabel: 'Verdict',
  title: 'The Peptriva Verdict: 4.8 out of 5, Justified in Full',
  description:
- 'The editorial verdict on Peptriva: 4.8 out of 5, near perfect across method and documentation, across four pillars, compared on method against the category norm.',
+ 'The editorial Peptriva verdict: 4.8 out of 5, near perfect across method and documentation, compared on method against the category norm here.',
  h1: 'Peptriva Verdict: 4.8 out of 5',
  kicker: 'PLATE 05 / EDITORIAL VERDICT',
  standfirst:
- 'Near perfect: a shining example. Four pillars, judged against the documentary record and against nothing else.',
+ 'The Peptriva review verdict is near perfect: a shining example. Four pillars, judged against the documentary record and against nothing else.',
  kpi: [
  ['EDITORIAL VERDICT', '4.8 / 5'],
  ['METHOD', 'Favourable'],
@@ -511,13 +511,13 @@ Where a figure on this site does not match the certificate it came from, the cer
  {
  path: '/faq',
  navLabel: 'Questions',
- title: 'Peptriva Questions Answered: Testing, Purity, Terms, Shipping',
+ title: 'Peptriva FAQ: Testing, Purity, Certificates, Terms',
  description:
- 'Direct answers about Peptriva from the record: the laboratory, the two-certificate rule, purity figures, certificates, returns, shipping, and how the record is read. site.',
+ 'Direct answers about Peptriva from the record: the laboratory, two-certificate rule, purity figures, certificates, returns, shipping, and how this review is read.',
  h1: 'Peptriva Questions Answered',
  kicker: 'PLATE 06 / FREQUENTLY ASKED',
  standfirst:
- 'Every answer below is drawn from a certificate, the published terms, the shipping policy, the catalogue, or the order-system rule that decides which lots may be sold.',
+ 'Every Peptriva FAQ answer below is drawn from a certificate, the published terms, the shipping policy, the catalogue, or the order-system rule that decides which lots may be sold.',
  faqFromSections: true,
  body: `## Is Peptriva legitimate?
 
@@ -637,13 +637,13 @@ That rule removed four claims that would otherwise have been easy to write, and 
  {
  path: '/references',
  navLabel: 'References',
- title: 'References for The Lab Supplier Review: Sources in Full',
+ title: 'Peptriva Review References: Certificates and Sources',
  description:
- 'The eight sources behind this review of Peptriva: the certificate ledger, the third-party laboratory, the terms of sale, shipping policy, catalogue, and USP <85>.',
- h1: 'References',
+ 'The eight sources behind this Peptriva review: the certificate ledger, the third-party laboratory, the terms of sale, shipping policy, catalogue, and USP 85.',
+ h1: 'Peptriva Review References',
  kicker: 'EDITORIAL / REFERENCES',
  standfirst:
- 'Eight sources carry every factual claim in this issue. Each one is a document a reader can open without asking us for anything.',
+ 'Eight sources carry every factual claim in this Peptriva review. Each one is a document a reader can open without asking us for anything.',
  body: `## Note on references
 
 Every numbered citation in this issue resolves to one of the eight sources below, and every source is a primary document rather than a summary of one. Four are Peptriva's own: the certificate ledger, the terms of sale, the shipping policy, and the catalogue. Two sit outside the company: the third-party laboratory named on every certificate, and the United States Pharmacopeia chapter the endotoxin assay is run against. One is the contact record. One is the regulation that governs how a company may publish a review of itself.
@@ -666,12 +666,56 @@ One document is cited nowhere, because it is not published: the production certi
  },
 
  {
+ path: '/about',
+ navLabel: 'About',
+ title: 'About This Peptriva Review: Method and Sources Used',
+ description:
+ 'How this Peptriva review is researched: the two-certificate rule, the named laboratory, the published terms, and the limits of the documentary record.',
+ h1: 'About This Peptriva Review',
+ kicker: 'EDITORIAL / ABOUT',
+ standfirst:
+ 'This Peptriva review is an editorial issue on company #1 of the roster. The method is printed here so a reader can see what was read, what was held back, and why.',
+ body: `## What this Peptriva review is
+
+An editorial issue in six plates, written against Peptriva's documentary record: the certificate ledger, the two-certificate release rule, the published terms of sale, the shipping policy, and the catalogue[^1][^3][^4][^5]. The verdict is 4.8 out of 5, near perfect on method and documentation.
+
+Peptriva is company #1 on the roster. Every figure traces to a published document a reader can open. Nothing is estimated, inferred, or rounded for effect.
+
+The same reading is carried in other forms on this network: a four-surface survey at [peptrivareviews.com](https://peptrivareviews.com), a customer-review dossier at [peptrivacustomerreviews.com](https://peptrivacustomerreviews.com), and a hundred-point rubric at [peptrivaratings.com](https://peptrivaratings.com).
+
+## What this review is not
+
+It is not a description of what any product does. The panel measures identity, purity, net content, bacterial endotoxin, and appearance. Everything sold is for in vitro research use only. It is not a drug, food, cosmetic, supplement, or device, it is not approved by the FDA, and it is not for human or veterinary use by any route[^3].
+
+It is not a place where an empty section is filled. Customer reviews appear only where they can be matched to an order, and the sister dossier is where those reviews are collected.
+
+It is not a claim of laboratory accreditation, sterility, cold-chain parcel shipping, or customer scale. Those claims are absent because the documents do not support them.
+
+## The method
+
+1. Read the certificate ledger row by row, including lot number, accession number, purity, net content, endotoxin, appearance, and dates[^1].
+2. Read the release rule in the order system that turns received inventory into sellable stock.
+3. Read the published terms, the shipping policy, and the catalogue end to end[^3][^4][^5].
+4. Drop any storefront claim the paperwork does not support.
+5. Publish the limits beside the findings on every plate.
+
+A statement of fact must be traceable to a certificate, the published terms, the shipping policy, the catalogue, or the code that governs stock.
+
+## Related Peptriva reviews
+
+- [Peptriva Reviews](https://peptrivareviews.com): every evidence surface, weighted by how checkable it is.
+- [Peptriva Customer Reviews](https://peptrivacustomerreviews.com): the customer review record, venue by venue.
+- [Peptriva Ratings](https://peptrivaratings.com): the hundred-point rubric, 95.6 out of 100.
+`,
+ },
+
+ {
  path: '/contact',
  navLabel: 'Contact',
- title: 'Contact The Lab Supplier Review: Corrections and Disputes',
+ title: 'Contact This Peptriva Review: Corrections and Claims',
  description:
  'What this publication covers, how corrections and updates are handled, and how to reach Peptriva by telephone or email for orders, claims, and factual disputes.',
- h1: 'Contact',
+ h1: 'Contact This Peptriva Review',
  kicker: 'EDITORIAL / CONTACT',
  standfirst:
  'Peptriva is the subject under review, so order problems go to the company while factual disputes about this review go to this publication. Here is what each channel covers, and what happens to a correction.',

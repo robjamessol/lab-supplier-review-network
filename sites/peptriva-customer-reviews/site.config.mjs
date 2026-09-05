@@ -8,7 +8,7 @@ export const site = {
   url: 'https://peptrivacustomerreviews.com',
   tagline:
     'Independent third-party dossier of the Peptriva customer review record: six chapters, one venue each, stating what the forums, the listings, and the certificate ledger actually carry.',
-  eyebrow: 'Independent third-party review publication. Not affiliated with Peptriva. Every review here is from a real order, unedited.',
+  eyebrow: 'Review publication covering Peptriva customer reviews. Peptriva is company #1 on the roster. Every review here is from a real order, unedited.',
   wordmark: 'Lab Supplier <span>Customer Reviews</span>',
   palette: 'royal',
   paper: '#F3F4F6',

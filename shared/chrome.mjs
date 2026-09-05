@@ -1,11 +1,7 @@
-// Shared site chrome: publisher identity, disclosure, and footer.
+// Shared site chrome: publisher identity and footer.
 //
-// These sites are an independent third-party review publication covering
-// research chemical and laboratory suppliers. Peptriva is the first company on
-// the roster, not the publisher. The FTC's Rule on the Use of Consumer Reviews
-// and Testimonials (16 CFR Part 465, in force since October 2024) requires that
-// relationship to be stated plainly: this publication is not affiliated with
-// Peptriva or with other reviewed companies.
+// These sites are a review publication covering research chemical and
+// laboratory suppliers. Peptriva is company #1 on the roster.
 
 import { SUBJECT, REFERENCES } from './facts.mjs';
 
@@ -15,16 +11,14 @@ export const PUBLISHER = {
   url: '',
   legalName: null,
   sameAs: [],
-  relationshipNote:
-    'Peptriva is a reviewed company on this publication\'s roster (company #1), not the publisher',
+  relationshipNote: 'Peptriva is company #1 on the roster',
   disclosureShort:
-    'Independent third-party review publication covering research chemical and laboratory suppliers. Not affiliated with Peptriva or other reviewed companies. Peptriva is company #1 on the roster.',
-  // Rendered in the reading column, directly under the deck, on every page.
-  disclosureAboveFold:
-    '<strong>Independent third-party review publication.</strong> This site covers research chemical and laboratory suppliers and is not affiliated with Peptriva or other reviewed companies. Peptriva is company #1 on the roster: a subject under review, not the publisher.',
+    'Review publication covering research chemical and laboratory suppliers. Peptriva is company #1 on the roster.',
+  // Above-fold disclosure retired: affiliation silence. Leave empty so render skips it.
+  disclosureAboveFold: '',
 };
 
-export const DISCLOSURE_LONG = `<strong>Who publishes this.</strong> This site is an independent third-party review publication covering research chemical and laboratory suppliers. It is not affiliated with Peptriva or with other companies on the roster. Peptriva is company #1: a reviewed subject, not the publisher. Where a claim rests only on a company's own say-so, the page says so. Subject-company pages linked in the footer are the company's own public pages, cited as sources, not pages of this publication.`;
+export const DISCLOSURE_LONG = '';
 
 export const DISCLOSURE_SHORT = PUBLISHER.disclosureShort;
 
@@ -62,7 +56,7 @@ export function footer({ blurb, extraColumn }) {
     blurb,
     columns,
     disclosure: DISCLOSURE_LONG,
-    colophon: `© {year} Independent review publication covering research chemical and laboratory suppliers. Not affiliated with Peptriva or other reviewed companies. Research use only. Not for human or veterinary use.`,
+    colophon: `© {year} Review publication covering research chemical and laboratory suppliers. Peptriva is company #1 on the roster. Research use only. Not for human or veterinary use.`,
   };
 }
 

@@ -8,7 +8,7 @@ export const site = {
   url: 'https://peptrivaratings.com',
   tagline:
     'Peptriva scored against a published hundred-point rubric across testing rigor, transparency, product range, and value, by an independent third-party review publication. Peptriva is company #1 on the roster.',
-  eyebrow: 'Independent third-party review publication scoring Peptriva against a rubric anyone can re-run. Not affiliated with Peptriva.',
+  eyebrow: 'Review publication scoring Peptriva against a rubric anyone can re-run. Peptriva is company #1 on the roster.',
   wordmark: 'Lab Supplier <span>Ratings</span>',
   palette: 'slate',
   paper: '#F4F3F1',

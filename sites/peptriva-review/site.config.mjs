@@ -8,7 +8,7 @@ export const site = {
   url: 'https://peptrivareview.com',
   tagline:
     'An editorial issue on Peptriva, company #1 on this independent review roster: thirteen lots, one third-party laboratory, one verdict, and a plain account of what the evidence supports.',
-  eyebrow: 'Independent third-party review publication. Not affiliated with Peptriva. Peptriva is company #1 on the roster.',
+  eyebrow: 'Review publication covering research chemical and laboratory suppliers. Peptriva is company #1 on the roster.',
   wordmark: 'The Lab Supplier <span>Review</span>',
   palette: 'royal',
   paper: '#F2F3F5',

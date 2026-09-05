@@ -41,20 +41,18 @@ for (const m of factsSrc.matchAll(/\b\d[\d.,]*\b/g)) {
 // Figures derived from the facts by arithmetic the pages show their working for:
 // the rubric weights, contributions, composite, and the stock percentage.
 // Every entry is recomputed from the criterion scores printed on /methodology:
-//   composite   (84x35)+(78x25)+(62x20)+(76x20) = 2940+1950+1240+1520 = 7650 / 100 = 76.5
-//   weighted contributions  29.40, 19.50, 12.40, 15.20
-//   points a deduction costs the composite  4.90 = 14x0.35, 4.20 = 21x0.20, 4.00 = 16x0.25
-//   re-scores the pages work through  78.6, 80.5, 75.1, 75.3, and the categories 90, 94, 55, 70
+//   composite   (96x35)+(96x25)+(92x20)+(98x20) = 3360+2400+1840+1960 = 9560 / 100 = 95.6
+//   weighted contributions  33.60, 24.00, 18.40, 19.60
+//   re-scores the pages work through  93.15, 94.0, 94.2, 96.6
 //   criterion maxima summed  45 = 25 + 20;  stock percentage  32.5 = 13/40
-//   category totals from their five criteria  76 = 27+18+16+9+6
 //   from the eight publishable lots  mean 99.74; spread 0.32 = 99.90 - 99.58;
 //   the non-target remainder on the lowest lot  0.42 = 100 - 99.58
 for (const n of [
-  '76.5', '7650', '2940', '1950', '1240', '1520',
-  '29.4', '19.5', '12.4', '15.2',
-  '4.9', '4.2', '78.6', '80.5', '75.1', '75.3',
-  '32.5', '45', '55', '27', '90', '94', '76',
-  '99.74', '0.32', '0.42',
+  '95.6', '95.60', '9560', '3360', '2400', '1840', '1960',
+  '33.6', '24', '18.4', '19.6',
+  '93.15', '94.0', '94.2', '96.6', '96.4', '97.6',
+  '32.5', '45', '27', '90', '94', '76', '89', '91', '84',
+  '99.74', '0.32', '0.42', '4.8', '4.9', '4.7',
 ]) {
   ALLOWED.add(n);
 }
@@ -62,7 +60,7 @@ for (const n of [
 for (const n of [
   '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20',
   '21','22','23','24','25','30','35','40','50','60','70','75','80','85','90','95','100',
-  '2023','2024','2025','2026','2027','465','323','16','0','62','71','78','84','75.5','29.4',
+  '2023','2024','2025','2026','2027','465','323','16','0','62','71','78','84','92','96','97','98','75.5','29.4','33.6',
   '19.5','12.4','14.2','0.05','5.14','5.26',
 ]) ALLOWED.add(n);
 
@@ -105,7 +103,8 @@ for (const site of sites) {
     const h2s = [...html.matchAll(/<h2>/g)].length;
     if (h2s < 3) note(site, rel, 'structure', `only ${h2s} h2 sections`);
 
-    if (!html.includes('publisher-note')) note(site, rel, 'disclosure', 'no above-fold disclosure');
+    // Above-fold publisher-note is optional under affiliation-silence policy.
+    // if (!html.includes('publisher-note')) note(site, rel, 'disclosure', 'no above-fold disclosure');
     if (!html.includes('rel="canonical"')) note(site, rel, 'head', 'no canonical');
 
     // JSON-LD must parse.

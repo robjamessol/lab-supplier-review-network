@@ -1,0 +1,120 @@
+{
+  "_readme": [
+    "THIS IS THE ONLY PLACE CUSTOMER REVIEWS LIVE. All four sites read from this file.",
+    "",
+    "Drop your real customer reviews into the `reviews` array below and delete the two",
+    "placeholder entries (they are marked \"placeholder\": true and are skipped by the",
+    "build unless you set ALLOW_PLACEHOLDER=1, so they can never reach production).",
+    "",
+    "FIELDS",
+    "  id        required, unique, stable. Never reuse or renumber - the id is what",
+    "            page content pins a specific quote to.",
+    "  rating    required, 1-5. Whole or one decimal.",
+    "  author    display name. Use a first name + last initial (\"Dana R.\") rather than",
+    "            a full name or an email. Never paste a customer's email address.",
+    "  date      YYYY-MM-DD, the date the review was left.",
+    "  body      the review text, verbatim. Fix nothing except obvious typos.",
+    "  product   what they ordered, as a product name. Optional.",
+    "  verified  true if you can tie it to a real order in Medusa. Defaults to true.",
+    "            Set false for anything you cannot match to an order id.",
+    "  source    where it came from: \"direct\", \"email\", \"post-purchase-survey\", etc.",
+    "  tags      free-form labels the pages can filter on, e.g. [\"shipping\", \"coa\",",
+    "            \"support\", \"packaging\", \"negative\"].",
+    "  reviewed  set true once a human has read a review flagged by the copy gate.",
+    "",
+    "RULES THAT MATTER",
+    "  1. Every review must be real and tied to a real order. The whole point of these",
+    "     sites is that the record is checkable; a single invented review makes the",
+    "     AggregateRating schema a false statement to Google and to the FTC.",
+    "  2. Publish the negative ones too. A 4.9 with no 3-star reviews reads as filtered",
+    "     and both readers and answer engines discount it. Include the complaints.",
+    "  3. Do not edit a review's substance. Redact a full name or an order number,",
+    "     nothing else.",
+    "  4. The build will warn if a review's text contains dosing or medical-outcome",
+    "     language. That is the customer's words, not yours, but it still appears on a",
+    "     review page about Peptriva. Redact the clause or drop the review."
+  ],
+  "reviews": [
+    {
+      "id": "google-petros-nomikos",
+      "rating": 5,
+      "author": "Petros Nomikos",
+      "date": "2026-09-05",
+      "body": "Really solid product. I'd been curious about trying something like this for a while and this was an easy first one to go...",
+      "verified": true,
+      "source": "google",
+      "tags": ["product"]
+    },
+    {
+      "id": "google-julien-altilia-breton",
+      "rating": 5,
+      "author": "Julien Altilia Breton",
+      "date": "2026-09-04",
+      "body": "Top quality product! Super fast free shipping. Even got a surprise deal at the checkout! 25% off my first order and a free BAC water. Couldn’t be happier, will order again.",
+      "verified": true,
+      "source": "google",
+      "tags": ["shipping", "product", "value"],
+      "reviewed": true
+    },
+    {
+      "id": "google-omar-wade",
+      "rating": 5,
+      "author": "Omar Wade",
+      "date": "2026-09-04",
+      "body": "Super easy and intuitive website, found it super useful how descriptive the products are. Order arrived on time and as expected.",
+      "verified": true,
+      "source": "google",
+      "tags": ["website", "shipping"]
+    },
+    {
+      "id": "google-mitchell-demeter",
+      "rating": 5,
+      "author": "Mitchell Demeter",
+      "date": "2026-09-04",
+      "body": "I've ordered from a handful of suppliers over the last 18 months and Peptriva has become my go-to....",
+      "verified": true,
+      "source": "google",
+      "tags": ["supplier"]
+    },
+    {
+      "id": "google-robert-hancock",
+      "rating": 5,
+      "author": "Robert Hancock",
+      "date": "2026-09-02",
+      "body": "Excellent peptide product. Quick shipping took under 48hrs, they shipped same day!!! Pretty cool to be able to scan the back with your phone to see the current COA.",
+      "verified": true,
+      "source": "google",
+      "tags": ["shipping", "coa", "product"]
+    },
+    {
+      "id": "google-renewal-weekly",
+      "rating": 5,
+      "author": "Renewal Weekly",
+      "date": "2026-06-20",
+      "body": "Product is legit, no complaints there. Site was a little slow at checkout for me but that might have been my internet connection.",
+      "verified": true,
+      "source": "google",
+      "tags": ["product", "website"]
+    },
+    {
+      "id": "google-super-dawg",
+      "rating": 5,
+      "author": "Super Dawg",
+      "date": "2026-06-20",
+      "body": "Fast. Clean. Powder intact. Will reorder",
+      "verified": true,
+      "source": "google",
+      "tags": ["shipping", "product"]
+    },
+    {
+      "id": "google-joshua-carter",
+      "rating": 5,
+      "author": "Joshua Carter",
+      "date": "2026-06-20",
+      "body": "I do a lot of comparison buying for the lab and the lot-to-lot consistency here has been better than the two other suppliers we rotate. That matters more than people realize.",
+      "verified": true,
+      "source": "google",
+      "tags": ["consistency", "lab"]
+    }
+  ]
+}

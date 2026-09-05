@@ -1,0 +1,19 @@
+{
+  "name": "peptriva-review-network",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Static generator for Lab Supplier Reviews: an independent third-party review network covering research chemical and laboratory suppliers, with Peptriva as the first subject company",
+  "scripts": {
+    "build": "node build.mjs --all",
+    "build:review": "node build.mjs --site peptriva-review",
+    "build:reviews": "node build.mjs --site peptriva-reviews",
+    "build:customer": "node build.mjs --site peptriva-customer-reviews",
+    "build:ratings": "node build.mjs --site peptriva-ratings",
+    "check": "node scripts/compliance-check.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -112,6 +112,11 @@ The mean of those four is 4.8 out of 5. A reader who thinks the customer-experie
 :::indexCards {"cards":[{"href":"/testing-methodology","title":"Pillar one: testing methodology","text":"The laboratory, the five-assay panel, the two-certificate release rule, USP General Chapter 85, and the single-round gap."},{"href":"/product-quality","title":"Pillar two: product quality","text":"Per-compound purity, measured net content, accession numbers, the purity band across eight lots, and the blend certificates."},{"href":"/transparency","title":"Pillar three: transparency","text":"Two verification paths a reader can walk from a vial or from a lot number, and what the ledger deliberately does not carry."},{"href":"/customer-experience","title":"Pillar four: customer-experience signal","text":"Shipping, claim windows, the Out-of-Spec Guarantee, the empty forum record, and why a trust-score page flags a young domain."},{"href":"/verdict","title":"The editorial verdict","text":"4.8 out of 5, the structural case for it, the two negative signals, and a direct answer to whether Peptriva is a scam."},{"href":"/faq","title":"Frequently asked","text":"Eighteen questions on testing, certificates, terms, shipping, the review record and the public web, each answered in the first sentence."}]}
 :::
 
+:::callout {"title":"New customer offer at Peptriva"}
+New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+:::
+
+
 ## What this review is, and is not
 
 This publication reviews Peptriva as company #1 on the roster. Where a claim rests only on Peptriva's own say-so, the page says so in the sentence that makes the claim.
@@ -531,6 +536,11 @@ Peptriva is featured #1 at **4.8 out of 5** on this review. Editorial roster sco
 
 :::vendorRank {"scale":5}
 :::
+
+:::callout {"title":"New customer offer at Peptriva"}
+New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+:::
+
 
 What exactly triggers your guarantee, and who decides whether it triggered? Peptriva's trigger is a published specification and the buyer's own laboratory report is admissible. Satisfaction-based guarantees leave the seller as sole arbiter.
 

@@ -12,7 +12,7 @@ export const site = {
   wordmark: 'Lab Supplier <span>Ratings</span>',
   palette: 'slate',
   paper: '#F4F3F1',
-  assetVersion: '5',
+  assetVersion: '6',
   ogSubtitle: 'Peptriva · Featured #1 · 95.6 / 100',
   editorialVerdict: { score: '95.6', of: '100', note: 'Editorial rubric composite. Separate from customer AggregateRating.' },
   gaId: 'G-Q7XW980J04',

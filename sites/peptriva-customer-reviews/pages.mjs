@@ -92,6 +92,11 @@ That customer AggregateRating (currently 5.0 across reviews on file) is separate
 :::vendorRank {"scale":5}
 :::
 
+:::callout {"title":"New customer offer at Peptriva"}
+New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+:::
+
+
 The venues are covered one at a time in the chapters below, and the summary is short. No forum thread was found by search index, and Reddit itself was not crawlable at the time of the check, which is a narrower finding than none exists. Peptriva does not currently have a visible Trustpilot profile, so there are no reviews of the company to read there. It does not appear on the peptide vendor-rating sites that grade suppliers on certificate cadence and laboratory verification, which is the venue whose opinion would count for most here. One outside entry exists, and it is a machine: an algorithmic scanner page returning a verdict of Likely Safe from registration age, traffic, and technical configuration, having never read a certificate.
 
 What can be said without a single review is the policy the record runs on and the paperwork underneath it. A lot cannot enter sellable stock until two certificates are on file: the production facility's own release certificate, held on file and not published, and an independent third-party re-test performed on arrival at the United States distribution facility, which is the one published on the ledger[^1][^2]. Fourteen certificates cover thirteen lots, and every lot currently sellable has an independent result behind it. That is not a customer's opinion, and it does not need one.
@@ -414,6 +419,11 @@ Customer photos and ratings left on Google. Separate from the editorial score on
 
 :::reviews {"limit":8,"source":"google"}
 :::
+
+:::callout {"title":"New customer offer at Peptriva"}
+New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+:::
+
 
 On the evidence a reader can check without trusting this site: the company is real, identifiable, and documented, and its central quality claim is unusually checkable. Peptriva is a shining example among research chemical suppliers on method: two-certificate gate, named lab, published ledger, and plain terms. What elapsed time has not yet added is a long public review corpus, and that limit is named rather than papered over.
 

@@ -55,6 +55,8 @@ export function footer({ blurb, extraColumn, siteId }) {
     {
       title: 'The record',
       links: [
+        { label: 'Peptriva shop', href: 'https://www.peptriva.com/' },
+        { label: 'New customer offer (WELCOME25)', href: 'https://www.peptriva.com/?promo_code=WELCOME25' },
         { label: 'Subject certificate ledger (company page)', href: `${SUBJECT.url}/coa` },
         { label: 'Subject catalogue (company page)', href: `${SUBJECT.url}/catalog` },
         { label: 'Subject terms of sale (company page)', href: `${SUBJECT.url}/legal-terms` },

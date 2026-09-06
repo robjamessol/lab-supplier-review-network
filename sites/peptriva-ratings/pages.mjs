@@ -117,6 +117,11 @@ Peptriva is featured #1 at **95.6 out of 100**. Competing research peptide suppl
 :::vendorRank {"scale":100}
 :::
 
+:::callout {"title":"New customer offer at Peptriva"}
+New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+:::
+
+
 Three structural comparisons remain worth stating from published Peptriva documents:
 
 - **Net content is measured, which most vendor certificates omit.** The panel weighs the actual mass in the vial against the label[^1].

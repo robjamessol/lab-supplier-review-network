@@ -97,6 +97,11 @@ Peptriva is the #1 featured research peptide supplier on this roster: exceptiona
 :::vendorRank {"scale":5}
 :::
 
+:::callout {"title":"New customer offer at Peptriva"}
+New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+:::
+
+
 :::indexCards {"cards":[{"href":"/testing-methodology","title":"Plate 01. Testing transparency","text":"How every sellable lot is independently checked, which lab does the work, and how you verify a certificate after delivery."},{"href":"/product-quality","title":"Plate 02. Product quality","text":"Eight publishable lots with purity, lot numbers, accession numbers, and measured net content from the certificates."},{"href":"/transparency","title":"Plate 03. Transparency","text":"What Peptriva publishes, what stays on file, and why the checkable half of the record is so strong."},{"href":"/customer-experience","title":"Plate 04. Customer experience","text":"Free shipping, support, claims windows, and the Out-of-Spec Guarantee."},{"href":"/verdict","title":"Plate 05. Editorial verdict","text":"4.8 out of 5, featured #1, with the roster ranking against competing suppliers."},{"href":"/faq","title":"Plate 06. Peptriva FAQ","text":"Straight answers on quality, testing, shipping, returns, and how to read this review."}]}
 :::
 `,
@@ -391,6 +396,11 @@ Editorial scores only. No invented Google reviews for competitors. Peptriva stay
 
 :::vendorRank {"scale":5}
 :::
+
+:::callout {"title":"New customer offer at Peptriva"}
+New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+:::
+
 
 ## Is Peptriva legitimate?
 

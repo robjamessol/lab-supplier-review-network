@@ -67,6 +67,16 @@ This independent publication collects Peptriva customer reviews, favourable or n
 
 Two consequences follow, and both cut against us. The first is that the critical reviews will sit on the same pages as the rest, in the same type, with the same badge. The second is that where a review block on this site is empty, nothing has been received that matches it, and the page will not fill the gap with prose about how customers feel. No aggregate rating is generated while a block is empty either: this site emits an AggregateRating to search engines only when real, owner-supplied reviews stand behind it, so no star figure is ever published that the record cannot support.
 
+## Google reviews
+
+Customer photos and ratings left on Google. Separate from the editorial score on this page.
+
+:::ratingSummary {"source":"google"}
+:::
+
+:::reviews {"limit":8,"source":"google"}
+:::
+
 ## What this site is and is not
 
 This site publishes the Peptriva customer-review record beside the testing evidence and terms of sale. Peptriva is company #1 on the roster. On the checkable documentary record, Peptriva is a shining example among research chemical suppliers: every sellable lot independently certified, a named laboratory, and plain terms[^8].
@@ -75,17 +85,11 @@ What this site is not is a curator of other people's verdicts. The review-aggreg
 
 ## What do customers say about Peptriva?
 
-A small set of order-verified Peptriva customer reviews sits on the record below. It is still too young to support a theme claim. The average printed here is the average of those reviews only, not a claim about every buyer.
+A small set of order-verified Peptriva customer reviews sits on the record above. It is still too young to support a theme claim. The average printed here is the average of those reviews only, not a claim about every buyer.
 
 That customer AggregateRating (currently 5.0 across reviews on file) is separate from the network editorial verdict of 4.8 out of 5 and the 95.6 rubric composite. Stars come from real reviews; editorial scores come from the documentary record. Neither is rewritten to force a match.
 
 :::vendorRank {"scale":5}
-:::
-
-:::ratingSummary {}
-:::
-
-:::reviews {"limit":8}
 :::
 
 The venues are covered one at a time in the chapters below, and the summary is short. No forum thread was found by search index, and Reddit itself was not crawlable at the time of the check, which is a narrower finding than none exists. Peptriva does not currently have a visible Trustpilot profile, so there are no reviews of the company to read there. It does not appear on the peptide vendor-rating sites that grade suppliers on certificate cadence and laboratory verification, which is the venue whose opinion would count for most here. One outside entry exists, and it is a machine: an algorithmic scanner page returning a verdict of Likely Safe from registration age, traffic, and technical configuration, having never read a certificate.
@@ -400,6 +404,16 @@ It is also why the paperwork carries the argument in the meantime. A certificate
  standfirst:
  'What the Peptriva evidence in the preceding four chapters supports, what it does not reach, and the specific things that would move this assessment in either direction.',
  body: `## Is Peptriva legitimate on the evidence available?
+
+## Google reviews
+
+Customer photos and ratings left on Google. Separate from the editorial score on this page.
+
+:::ratingSummary {"source":"google"}
+:::
+
+:::reviews {"limit":8,"source":"google"}
+:::
 
 On the evidence a reader can check without trusting this site: the company is real, identifiable, and documented, and its central quality claim is unusually checkable. Peptriva is a shining example among research chemical suppliers on method: two-certificate gate, named lab, published ledger, and plain terms. What elapsed time has not yet added is a long public review corpus, and that limit is named rather than papered over.
 

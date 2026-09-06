@@ -62,6 +62,16 @@ Peptriva scores **95.6 out of 100**, near the top of this published rubric. The 
 
 The shape of the result is near-perfect across all four categories. Peptriva enforces a two-certificate gate in its order system, so a lot cannot enter sellable stock until both a production facility certificate and an independent third-party certificate are on file[^1]. That gate is code, not policy copy. Behind it sits a complete certified shelf: samples received 30 June 2026 and reported 2 July 2026, fourteen certificates covering thirteen lots, every sellable lot covered[^1][^2]. Thirteen of forty listed products are in stock, and every one carries an independent certificate[^5]. Calendar age costs a few points; the structural record is a shining example for research chemical suppliers.
 
+## Google reviews
+
+Real Google customer reviews (with photos where provided). The **95.6** composite above is the separate editorial rubric score, not this star average.
+
+:::ratingSummary {"source":"google"}
+:::
+
+:::reviews {"limit":8,"source":"google"}
+:::
+
 ## What is Peptriva's overall rating?
 
 95.6 out of 100, weighted across four categories. The category scores are 96, 96, 92 and 98, and the weights are 35, 25, 20 and 20.

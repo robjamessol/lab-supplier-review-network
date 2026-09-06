@@ -19,6 +19,9 @@
     "            Set false for anything you cannot match to an order id.",
     "  source    where it came from: \"direct\", \"email\", \"post-purchase-survey\", etc.",
     "  tags      free-form labels the pages can filter on, e.g. [\"shipping\", \"coa\",",
+    "  images    optional. Public paths to customer photos, e.g.",
+    "            [\"/google-reviews/lineup-mots-c.png\"]. Copied from",
+    "            shared/assets/google-reviews/ into each site dist.",
     "            \"support\", \"packaging\", \"negative\"].",
     "  reviewed  set true once a human has read a review flagged by the copy gate.",
     "",
@@ -43,18 +46,30 @@
       "body": "Really solid product. I'd been curious about trying something like this for a while and this was an easy first one to go...",
       "verified": true,
       "source": "google",
-      "tags": ["product"]
+      "tags": [
+        "product"
+      ],
+      "images": [
+        "/google-reviews/hand-glow.jpg"
+      ]
     },
     {
       "id": "google-julien-altilia-breton",
       "rating": 5,
       "author": "Julien Altilia Breton",
       "date": "2026-09-04",
-      "body": "Top quality product! Super fast free shipping. Even got a surprise deal at the checkout! 25% off my first order and a free BAC water. Couldn’t be happier, will order again.",
+      "body": "Top quality product! Super fast free shipping. Even got a surprise deal at the checkout! 25% off my first order and a free BAC water. Couldn\u2019t be happier, will order again.",
       "verified": true,
       "source": "google",
-      "tags": ["shipping", "product", "value"],
-      "reviewed": true
+      "tags": [
+        "shipping",
+        "product",
+        "value"
+      ],
+      "reviewed": true,
+      "images": [
+        "/google-reviews/lineup-mots-c.png"
+      ]
     },
     {
       "id": "google-omar-wade",
@@ -64,7 +79,10 @@
       "body": "Super easy and intuitive website, found it super useful how descriptive the products are. Order arrived on time and as expected.",
       "verified": true,
       "source": "google",
-      "tags": ["website", "shipping"]
+      "tags": [
+        "website",
+        "shipping"
+      ]
     },
     {
       "id": "google-mitchell-demeter",
@@ -74,7 +92,12 @@
       "body": "I've ordered from a handful of suppliers over the last 18 months and Peptriva has become my go-to....",
       "verified": true,
       "source": "google",
-      "tags": ["supplier"]
+      "tags": [
+        "supplier"
+      ],
+      "images": [
+        "/google-reviews/lineup-bpc.png"
+      ]
     },
     {
       "id": "google-robert-hancock",
@@ -84,7 +107,14 @@
       "body": "Excellent peptide product. Quick shipping took under 48hrs, they shipped same day!!! Pretty cool to be able to scan the back with your phone to see the current COA.",
       "verified": true,
       "source": "google",
-      "tags": ["shipping", "coa", "product"]
+      "tags": [
+        "shipping",
+        "coa",
+        "product"
+      ],
+      "images": [
+        "/google-reviews/hand-ghk-cu.jpg"
+      ]
     },
     {
       "id": "google-renewal-weekly",
@@ -94,7 +124,10 @@
       "body": "Product is legit, no complaints there. Site was a little slow at checkout for me but that might have been my internet connection.",
       "verified": true,
       "source": "google",
-      "tags": ["product", "website"]
+      "tags": [
+        "product",
+        "website"
+      ]
     },
     {
       "id": "google-super-dawg",
@@ -104,7 +137,13 @@
       "body": "Fast. Clean. Powder intact. Will reorder",
       "verified": true,
       "source": "google",
-      "tags": ["shipping", "product"]
+      "tags": [
+        "shipping",
+        "product"
+      ],
+      "images": [
+        "/google-reviews/lifestyle.png"
+      ]
     },
     {
       "id": "google-joshua-carter",
@@ -114,7 +153,10 @@
       "body": "I do a lot of comparison buying for the lab and the lot-to-lot consistency here has been better than the two other suppliers we rotate. That matters more than people realize.",
       "verified": true,
       "source": "google",
-      "tags": ["consistency", "lab"]
+      "tags": [
+        "consistency",
+        "lab"
+      ]
     }
   ]
 }

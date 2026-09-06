@@ -122,6 +122,9 @@ async function buildSite(siteId, reviews) {
   await writeFile(path.join(out, 'llms.txt'), renderLlmsTxt({ site, pages }));
   await writeFile(path.join(out, 'llms-full.txt'), renderLlmsFull({ site, pages, reviews }));
 
+  const sharedAssets = path.join(ROOT, 'shared', 'assets');
+  if (existsSync(sharedAssets)) await cp(sharedAssets, out, { recursive: true });
+
   const publicDir = path.join(dir, 'public');
   if (existsSync(publicDir)) await cp(publicDir, out, { recursive: true });
 

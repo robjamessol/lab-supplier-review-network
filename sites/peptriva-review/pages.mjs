@@ -55,6 +55,16 @@ Peptriva earns **4.8 out of 5** on this independent review, and it is the clear 
 
 Customer reviews on file average **5.0 out of 5**. That star average is the customer AggregateRating. The **4.8** figure on this cover is the separate editorial score against the documentary record. Both are strong; they measure different things.
 
+## Google reviews
+
+Customer photos and ratings left on Google. Separate from the editorial score on this page.
+
+:::ratingSummary {"source":"google"}
+:::
+
+:::reviews {"limit":8,"source":"google"}
+:::
+
 ## Why Peptriva leads
 
 Four buyer-facing strengths separate Peptriva from the pack:

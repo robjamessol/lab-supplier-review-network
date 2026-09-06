@@ -76,6 +76,16 @@ This site reviews research chemical and laboratory suppliers, and Peptriva is co
 
 The checkable surface is unusually complete for a company whose domain was registered on 30 April 2026. Thirteen products are in stock and all thirteen have an independent third-party certificate behind them[^1][^5]. Fourteen certificates are on file, every one issued by a named laboratory in Franklin, Tennessee, from samples received on 30 June 2026 and reported on 2 July 2026[^2]. Set against that: one testing round rather than a series, a short archive, and an open web that has recorded nothing.
 
+## Google reviews
+
+Customer photos and ratings left on Google. Separate from the editorial score on this page.
+
+:::ratingSummary {"source":"google"}
+:::
+
+:::reviews {"limit":8,"source":"google"}
+:::
+
 ## What reviews of Peptriva show across the web
 
 Nothing. That is the honest finding and it goes here, above anything flattering. Across the surfaces where a research-peptide supplier normally accumulates a public record, there is no vendor-rating listing for Peptriva, no forum thread discussing it, and no article about it written by anybody outside the company. The third-party layer of this reading is empty rather than thin.
@@ -393,10 +403,10 @@ On this pillar that matters most, because a supplier's customer record is easy t
 
 Peptriva collects its own customer reviews and matches each against an order record before publication. The blocks below render from a single shared review file that every Peptriva review property reads, so the same set appears on all of them and cannot be curated per site.
 
-:::ratingSummary {}
+:::ratingSummary {"source":"google"}
 :::
 
-:::reviews {"limit":8}
+:::reviews {"limit":8,"source":"google"}
 :::
 
 If nothing appears above this line, that is the current state of the record rather than a rendering fault, and it is the honest answer to the question. No star average, review count, distribution or aggregate rating is emitted anywhere on this network until real order-verified reviews back one. A rating that nothing supports is a false statement to a search engine and to a regulator under the Federal Trade Commission's rule on consumer reviews and testimonials, 16 CFR Part 465, in force since 21 October 2024[^8].

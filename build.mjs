@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { renderPage, renderMarkdownAlternate } from './lib/render.mjs';
-import { renderSitemap, renderRobots, renderLlmsTxt, renderLlmsFull, MAIN_JS, FAVICON } from './lib/site-files.mjs';
+import { renderSitemap, renderRobots, renderLlmsTxt, renderLlmsFull, MAIN_JS, FAVICON, OG_IMAGE } from './lib/site-files.mjs';
 import { styles, PALETTES } from './lib/styles.mjs';
 import { checkCopy, checkReviewBody } from './lib/compliance.mjs';
 import { toPlain } from './lib/markdown.mjs';
@@ -107,7 +107,16 @@ async function buildSite(siteId, reviews) {
   // --- assets and machine surfaces ---------------------------------------
   await writeFile(path.join(out, 'css', 'style.css'), styles({ palette: site.palette, paper: site.paper }));
   await writeFile(path.join(out, 'js', 'main.js'), MAIN_JS);
-  await writeFile(path.join(out, 'favicon.svg'), FAVICON((PALETTES[site.palette] || PALETTES.royal).accent));
+  const accent = (PALETTES[site.palette] || PALETTES.royal).accent;
+  await writeFile(path.join(out, 'favicon.svg'), FAVICON(accent));
+  await writeFile(
+    path.join(out, 'og-image.svg'),
+    OG_IMAGE({
+      accent,
+      title: site.name,
+      subtitle: site.ogSubtitle || 'Peptriva · Featured #1 · 95.6 / 100',
+    })
+  );
   await writeFile(path.join(out, 'sitemap.xml'), renderSitemap({ site, pages, buildDate: BUILD_DATE }));
   await writeFile(path.join(out, 'robots.txt'), renderRobots({ site, staging: STAGING }));
   await writeFile(path.join(out, 'llms.txt'), renderLlmsTxt({ site, pages }));

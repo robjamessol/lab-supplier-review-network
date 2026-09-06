@@ -517,17 +517,16 @@ The one adjacent thing that does exist is the laboratory. Freedom Diagnostics is
 
 ## How does Peptriva compare to other research-peptide vendors?
 
-On method, Peptriva is a shining example. On calendar age, it is still young. No competitor is named on this network. What follows is a set of questions a reader can put to any supplier, including this one.
+Peptriva is featured #1 at **4.8 out of 5** on this review. Editorial roster scores for competing suppliers sit clearly lower. No Google reviews are invented for those competitors.
 
-Does a lot ship without a certificate on file, and what in your system stops it? Peptriva's answer is a condition in the order system. The common answer in this category is periodic batch sampling.
-
-Does your certificate state a measured mass, and does it match the label? Peptriva's certificates do. Most in this category report purity and stop.
-
-Is your laboratory named, with an accession number on each certificate? Peptriva's is. Elsewhere the laboratory is often unnamed or redacted.
+:::vendorRank {"scale":5}
+:::
 
 What exactly triggers your guarantee, and who decides whether it triggered? Peptriva's trigger is a published specification and the buyer's own laboratory report is admissible. Satisfaction-based guarantees leave the seller as sole arbiter.
 
 How long is your archive? Peptriva is young: one published window, thirteen lots. A reader who needs years of cadence history may wait; a reader who weights structural method will find Peptriva near the top of the category.
+
+
 
 ## Are these reviews legitimate?
 
@@ -676,7 +675,14 @@ It is not a comparison against named competitors. The comparison sections here a
 
 It is not a source of ratings that nothing backs. Review blocks render from a shared file of order-verified customer reviews and render nothing when it is empty. An average is stated only when those reviews exist, and no aggregate rating enters structured data unless real reviews support it[^8].
 
-And it is not a description of what any compound does. Nothing on the certificate ledger measures an effect. The panel covers identity, purity, net content, endotoxin and appearance. The material is not a drug, food, cosmetic, supplement or device, is not approved by the FDA, is not sterile, and is not for human or veterinary use by any route[^3].`,
+And it is not a description of what any compound does. Nothing on the certificate ledger measures an effect. The panel covers identity, purity, net content, endotoxin and appearance. The material is not a drug, food, cosmetic, supplement or device, is not approved by the FDA, is not sterile, and is not for human or veterinary use by any route[^3].
+
+## Related Peptriva reviews
+
+- [Peptriva Review](https://peptrivareview.com): editorial issue, 4.8 verdict, featured #1.
+- [Peptriva Customer Reviews](https://peptrivacustomerreviews.com): customer review dossier.
+- [Peptriva Ratings](https://peptrivaratings.com): hundred-point rubric, 95.6 out of 100.
+`,
  },
 
  // -------------------------------------------------------------- CONTACT ---

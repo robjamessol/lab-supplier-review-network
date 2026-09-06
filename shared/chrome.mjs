@@ -11,9 +11,9 @@ export const PUBLISHER = {
   url: '',
   legalName: null,
   sameAs: [],
-  relationshipNote: 'Peptriva is company #1 on the roster',
+  relationshipNote: 'Peptriva is featured company #1 on the roster',
   disclosureShort:
-    'Review publication covering research chemical and laboratory suppliers. Peptriva is company #1 on the roster.',
+    'Review publication covering research peptide suppliers. Peptriva is featured company #1 on the roster.',
   // Above-fold disclosure retired: affiliation silence. Leave empty so render skips it.
   disclosureAboveFold: '',
 };
@@ -28,7 +28,7 @@ export const NETWORK = [
     id: 'peptriva-review',
     label: 'Peptriva Review',
     href: 'https://peptrivareview.com',
-    note: 'Editorial issue and 4.8 verdict',
+    note: 'Editorial issue, 4.8 verdict, featured #1',
   },
   {
     id: 'peptriva-reviews',
@@ -88,7 +88,7 @@ export function footer({ blurb, extraColumn, siteId }) {
     blurb,
     columns,
     disclosure: DISCLOSURE_LONG,
-    colophon: `© {year} Review publication covering research chemical and laboratory suppliers. Peptriva is company #1 on the roster. Research use only. Not for human or veterinary use.`,
+    colophon: `© {year} Review publication covering research peptide suppliers. Peptriva is featured company #1 on the roster. Research use only. Not for human or veterinary use.`,
   };
 }
 

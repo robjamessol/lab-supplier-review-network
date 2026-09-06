@@ -77,6 +77,11 @@ What this site is not is a curator of other people's verdicts. The review-aggreg
 
 A small set of order-verified Peptriva customer reviews sits on the record below. It is still too young to support a theme claim. The average printed here is the average of those reviews only, not a claim about every buyer.
 
+That customer AggregateRating (currently 5.0 across reviews on file) is separate from the network editorial verdict of 4.8 out of 5 and the 95.6 rubric composite. Stars come from real reviews; editorial scores come from the documentary record. Neither is rewritten to force a match.
+
+:::vendorRank {"scale":5}
+:::
+
 :::ratingSummary {}
 :::
 
@@ -445,6 +450,12 @@ Four rules govern what appears in these chapters.
 **Time.** Twelve more months of trading, with the ledger kept current, changes more than any sentence anyone can write today.
 
 Two findings would move the assessment the other way, and they are stated so that nobody has to catch this record out later: a lot appearing in sellable stock without a published independent certificate, or a review received and not published. The first is checkable from outside by comparing a lot code against the ledger[^1]. The second rests on the publication rules alone, and that is exactly why they are printed.
+
+## Related Peptriva reviews
+
+- [Peptriva Review](https://peptrivareview.com): editorial issue and 4.8 verdict, featured #1.
+- [Peptriva Reviews](https://peptrivareviews.com): four-surface reading.
+- [Peptriva Ratings](https://peptrivaratings.com): hundred-point rubric, 95.6 out of 100.
 `,
  },
 

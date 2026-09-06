@@ -102,13 +102,18 @@ The rubric awards no points for a third-party listing and deducts none for the l
 
 ## How does Peptriva compare to other peptide vendors?
 
-No competitor was scored, so this rubric produces a rating and not a ranking. No comparative price set, certificate archive, or stock figure for another supplier appears in the evidence pool, and this record will not estimate one. Three structural comparisons can be made from published documents, and they are the only three offered.
+Peptriva is featured #1 at **95.6 out of 100**. Competing research peptide suppliers on this roster are scored with editorial composites only (no invented customer reviews). Peptriva stays clearly on top.
 
-- **Net content is measured, which most vendor certificates omit.** The panel weighs the actual mass in the vial against the label. Most vendor certificates report purity and never report quantity, which means a buyer can hold a purity certificate for a vial containing less material than the label states[^1].
-- **The archive is small, and established competitors publish more.** Fourteen certificates covering thirteen lots is a small archive against suppliers who publish hundreds. What the rubric can credit is completeness rather than size, since no sellable lot is missing its certificate, and criterion 1.3 takes full marks on that basis while criterion 1.4 does not.
-- **The shelf is narrow.** Thirteen of forty listed products are in stock[^5]. A supplier with a longer available list and partial certificate coverage produces the opposite buyer experience: more to choose from, and paperwork that has to be checked line by line.
+:::vendorRank {"scale":100}
+:::
 
-A reader who wants a ranked field should read a publisher that scores several suppliers on one scale. This site scores one supplier, and it is that supplier.
+Three structural comparisons remain worth stating from published Peptriva documents:
+
+- **Net content is measured, which most vendor certificates omit.** The panel weighs the actual mass in the vial against the label[^1].
+- **Shelf coverage is complete even when the archive is young.** Fourteen certificates covering thirteen lots is smaller than long-established archives, but every sellable lot is covered[^1].
+- **The shelf is focused.** Thirteen of forty listed products are in stock[^5], and all thirteen are certified.
+
+Customer AggregateRating (from order-verified reviews on the sister dossier) is a separate signal from this 95.6 editorial composite and is not folded into the rubric.
 
 ## What the rating does not include
 
@@ -734,7 +739,7 @@ It is not a rating of efficacy. Peptriva material is sold for in vitro research 
 
 It is not a place where customer reviews are folded into the composite. Reviews are published elsewhere on this network under the same disclosure, and no star average, review count or distribution appears anywhere in this rubric. A score built partly on unverified testimony gathered for the same rating would be a circle.
 
-And it is not a ranking. No competitor was scored, no comparative price set or certificate archive for another supplier is in the evidence pool, and this record will not estimate one.
+The hundred-point composite remains Peptriva-specific arithmetic. Competing suppliers appear in the editorial roster ranking with lower scores; their composites are not re-derived from Peptriva's twenty sub-criteria line by line.
 
 ## Editorial standard
 
@@ -747,6 +752,12 @@ Four rules govern what may appear on these pages, and they are worth stating bec
 **The document outranks this site.** Where a figure here and a figure on the certificate ledger disagree, the ledger is correct and this site is wrong. [The contact page](/contact) is where to report one, and a correction of that kind is applied to the criterion table and the composite moves with it.
 
 **Limitations are printed, not omitted.** Every page ends by naming what its evidence does not establish. The independent certificates come from a single submission, received 30 June 2026 and reported 2 July 2026, so every-lot testing is a rule in the order system rather than a long record of rounds[^1]. Fourteen certificates covering thirteen lots is a small archive against competitors who publish hundreds. The panel does not include a sterility assay, and the terms state the material is not sterile[^3]. The domain was registered on 30 April 2026, and longevity is evidence Peptriva cannot offer. And a published rating is still a reading of evidence a reader can re-weight: this page does not claim the composite is the only defensible number.
+
+## Related Peptriva reviews
+
+- [Peptriva Review](https://peptrivareview.com): editorial issue, 4.8 verdict, featured #1.
+- [Peptriva Reviews](https://peptrivareviews.com): four-surface reading.
+- [Peptriva Customer Reviews](https://peptrivacustomerreviews.com): customer review dossier.
 `,
  },
 

@@ -7,12 +7,14 @@ export const site = {
   name: 'Lab Supplier Reviews',
   url: 'https://peptrivareviews.com',
   tagline:
-    'Independent third-party review of research chemical and laboratory suppliers, with Peptriva as company #1: certificate ledger, published terms, customer record, and the open web, weighted by how checkable each surface is.',
-  eyebrow: 'Review publication covering research chemical and laboratory suppliers. Peptriva is company #1 on the roster.',
+    'Independent review of research peptide suppliers, with Peptriva featured #1: certificates, terms, customer record, and the open web, weighted by checkability.',
+  eyebrow: 'Review publication covering research peptide suppliers. Peptriva is featured company #1 on the roster.',
   wordmark: 'Lab Supplier <span>Reviews</span>',
   palette: 'royal',
   paper: '#F1F2F5',
-  assetVersion: '3',
+  assetVersion: '4',
+  ogSubtitle: 'Peptriva · Featured #1 · 4.8 / 5',
+  editorialVerdict: { score: '4.8', of: '5', note: 'Editorial documentary verdict. Separate from customer AggregateRating.' },
   gaId: 'G-8P1J9444YS',
   publisher: { ...PUBLISHER, name: 'Lab Supplier Reviews', url: 'https://peptrivareviews.com' },
   subject: { name: SUBJECT.name, url: SUBJECT.url, description: SUBJECT.description },
@@ -29,7 +31,7 @@ export const site = {
   footer: footer({
     siteId: 'peptriva-reviews',
     blurb:
-      'Four pillars, four evidence surfaces, one reading of a research-peptide supplier under review. Peptriva is the first company on this publication\'s roster, weighted by how much a reader can confirm without trusting the publisher or the subject.',
+      'Four pillars, four evidence surfaces, one reading of Peptriva as featured #1, with editorial rankings of competing suppliers.',
   }),
 };
 

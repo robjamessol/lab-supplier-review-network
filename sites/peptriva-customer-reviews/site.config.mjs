@@ -7,12 +7,14 @@ export const site = {
   name: 'Lab Supplier Customer Reviews',
   url: 'https://peptrivacustomerreviews.com',
   tagline:
-    'Independent third-party dossier of the Peptriva customer review record: six chapters, one venue each, stating what the forums, the listings, and the certificate ledger actually carry.',
-  eyebrow: 'Review publication covering Peptriva customer reviews. Peptriva is company #1 on the roster. Every review here is from a real order, unedited.',
+    'Independent dossier of Peptriva customer reviews: order-verified feedback beside the testing record. Peptriva is featured #1 on the roster.',
+  eyebrow: 'Review publication covering Peptriva customer reviews. Peptriva is featured company #1. Every review here is from a real order, unedited.',
   wordmark: 'Lab Supplier <span>Customer Reviews</span>',
   palette: 'royal',
   paper: '#F3F4F6',
-  assetVersion: '3',
+  assetVersion: '4',
+  ogSubtitle: 'Peptriva · Customer reviews · Featured #1',
+  editorialVerdict: { score: '4.8', of: '5', note: 'Network editorial verdict. Customer AggregateRating comes only from reviews on file.' },
   gaId: 'G-1VN4LWQ0YR',
   publisher: { ...PUBLISHER, name: 'Lab Supplier Customer Reviews', url: 'https://peptrivacustomerreviews.com' },
   subject: { name: SUBJECT.name, url: SUBJECT.url, description: SUBJECT.description },
@@ -31,7 +33,7 @@ export const site = {
   footer: footer({
     siteId: 'peptriva-customer-reviews',
     blurb:
-      'The customer review record for Peptriva, company #1 on this independent publication\'s roster, read venue by venue, including the venues that carry nothing.',
+      'The customer review record for Peptriva, featured #1 on this independent publication\'s roster, read venue by venue.',
   }),
 };
 

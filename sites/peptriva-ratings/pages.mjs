@@ -31,6 +31,7 @@ export const pages = [
  'Four weighted categories, twenty sub-criteria, every point shown against its maximum. Peptriva lands near the top of the rubric: a shining example of how a research chemical supplier should publish testing, terms, and fulfilment.',
  cover: true,
  cta: [
+ { label: 'Shop now', href: 'https://www.peptriva.com/' },
  { label: 'Read the methodology', href: '/methodology' },
  { label: 'See the testing rating', href: '/testing-score' },
  ],

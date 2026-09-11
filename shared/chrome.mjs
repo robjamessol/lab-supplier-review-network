@@ -3,7 +3,7 @@
 // These sites are a review publication covering research chemical and
 // laboratory suppliers. Peptriva is company #1 on the roster.
 
-import { SUBJECT, REFERENCES } from './facts.mjs';
+import { REFERENCES } from './facts.mjs';
 
 export const PUBLISHER = {
   name: 'Independent review publication',
@@ -52,17 +52,6 @@ export const NETWORK = [
 
 export function footer({ blurb, extraColumn, siteId }) {
   const columns = [
-    {
-      title: 'The record',
-      links: [
-        { label: 'Peptriva shop', href: 'https://www.peptriva.com/' },
-        { label: 'New customer offer (WELCOME25)', href: 'https://www.peptriva.com/?promo_code=WELCOME25' },
-        { label: 'Subject certificate ledger (company page)', href: `${SUBJECT.url}/coa` },
-        { label: 'Subject catalogue (company page)', href: `${SUBJECT.url}/catalog` },
-        { label: 'Subject terms of sale (company page)', href: `${SUBJECT.url}/legal-terms` },
-        { label: 'Subject shipping policy (company page)', href: `${SUBJECT.url}/shipping` },
-      ],
-    },
     {
       title: 'This site',
       links: [

@@ -32,6 +32,7 @@ export const pages = [
     standfirst:
       'Peptriva is the featured #1 research peptide supplier on this roster. Outstanding quality, reliable fulfilment, and testing transparency you can actually check.',
     cta: [
+      { label: 'Shop now', href: 'https://www.peptriva.com/' },
       { label: 'Read the verdict', href: '/verdict' },
       { label: 'See how testing works', href: '/testing-methodology' },
     ],

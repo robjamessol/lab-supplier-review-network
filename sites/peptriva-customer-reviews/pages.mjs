@@ -42,6 +42,7 @@ export const pages = [
  standfirst:
  'This independent publication collects Peptriva customer reviews, and most of the places a buyer would look for one currently carry nothing about the company. This dossier takes those venues one at a time and says which is which.',
  cta: [
+ { label: 'Shop now', href: 'https://www.peptriva.com/' },
  { label: 'The assessment', href: '/assessment' },
  { label: 'The direct answers', href: '/faq' },
  ],

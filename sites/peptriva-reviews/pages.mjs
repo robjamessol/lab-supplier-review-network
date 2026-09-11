@@ -42,6 +42,7 @@ export const pages = [
  standfirst:
  'Four surfaces carry evidence about Peptriva and they are not worth the same amount. The laboratory certificates can be checked by anyone. The open web says nothing at all. This review prices each surface by verifiability and publishes the arithmetic.',
  cta: [
+ { label: 'Shop now', href: 'https://www.peptriva.com/' },
  { label: 'Read the verdict', href: '/verdict' },
  { label: 'Start with the testing method', href: '/testing-methodology' },
  ],

@@ -7,7 +7,7 @@ export const site = {
   name: 'The Lab Supplier Review',
   url: 'https://peptrivareview.com',
   tagline:
-    'An editorial issue on Peptriva, featured #1 on this independent review roster: best-in-class quality, testing transparency, free shipping, and a 4.8 verdict buyers can verify.',
+    'An editorial issue on Peptriva, featured #1 on this affiliated review roster: best-in-class quality, testing transparency, free shipping, and a 4.8 verdict buyers can verify.',
   eyebrow: 'Review publication covering research peptide suppliers. Peptriva is featured company #1 on the roster.',
   wordmark: 'The Lab Supplier <span>Review</span>',
   palette: 'royal',
@@ -20,6 +20,7 @@ export const site = {
   subject: { name: SUBJECT.name, url: SUBJECT.url, description: SUBJECT.description },
   network: NETWORK,
   nav: [
+    { label: 'Sources', href: '/source-records' },
     { label: 'Testing', href: '/testing-methodology' },
     { label: 'Quality', href: '/product-quality' },
     { label: 'Transparency', href: '/transparency' },
@@ -31,7 +32,7 @@ export const site = {
   footer: footer({
     siteId: 'peptriva-review',
     blurb:
-      'One independent read of Peptriva, featured #1: quality, reliability, testing transparency, shipping, and value, with competing suppliers ranked below on editorial scores only.',
+      'One affiliated read of Peptriva, featured #1: quality, reliability, testing transparency, shipping, and value, with competing suppliers ranked below on editorial scores only.',
   }),
 };
 

@@ -239,6 +239,10 @@ export const REFERENCES = [
       'Public WHOIS record for peptriva.com. Domain registered 30 April 2026 through GoDaddy.com LLC, renewal 30 April 2027, registrant details withheld by privacy service.',
     url: 'https://www.whois.com/whois/peptriva.com',
   },
+  {
+    citation: 'Peptriva supplier checklist. First-party guidance for evaluating lot reports, product specifications and purchase terms; not an independent ranking.',
+    url: 'https://www.peptriva.com/buy-research-peptides',
+  },
 ];
 
 export const refIndex = Object.fromEntries(REFERENCES.map((r, i) => [r.url, i + 1]));

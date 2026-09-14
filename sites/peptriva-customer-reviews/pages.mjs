@@ -40,7 +40,7 @@ export const pages = [
  h1: 'Peptriva Customer Reviews: venue by venue',
  kicker: 'THE REVIEW DOSSIER · VOL. I · SEPTEMBER 2026',
  standfirst:
- 'This independent publication collects Peptriva customer reviews, and most of the places a buyer would look for one currently carry nothing about the company. This dossier takes those venues one at a time and says which is which.',
+ 'This affiliated publication collects Peptriva customer reviews, and most of the places a buyer would look for one currently carry nothing about the company. This dossier takes those venues one at a time and says which is which.',
  cta: [
  { label: 'Shop now', href: 'https://www.peptriva.com/' },
  { label: 'The assessment', href: '/assessment' },
@@ -64,7 +64,7 @@ export const pages = [
  },
  body: `## The lead
 
-This independent publication collects Peptriva customer reviews, favourable or not, and this site is where they go. At the time of writing, the venues a careful buyer checks first, the forums, the third-party listing sites, the consumer review platforms, carry no body of Peptriva commentary that a search index will return. This dossier is built around that fact rather than around it: six numbered chapters, one venue each, and each one states what is there, what is not, and what an absence does and does not prove.
+This affiliated publication collects Peptriva customer reviews, favourable or not, and this site is where they go. At the time of writing, the venues a careful buyer checks first, the forums, the third-party listing sites, the consumer review platforms, carry no body of Peptriva commentary that a search index will return. This dossier is built around that fact rather than around it: six numbered chapters, one venue each, and each one states what is there, what is not, and what an absence does and does not prove.
 
 Two consequences follow, and both cut against us. The first is that the critical reviews will sit on the same pages as the rest, in the same type, with the same badge. The second is that where a review block on this site is empty, nothing has been received that matches it, and the page will not fill the gap with prose about how customers feel. No aggregate rating is generated while a block is empty either: this site emits an AggregateRating to search engines only when real, owner-supplied reviews stand behind it, so no star figure is ever published that the record cannot support.
 
@@ -320,7 +320,7 @@ What the panel does not include is a sterility assay, and the published terms st
 
 The honest answer has two halves and the second is the useful one.
 
-The half that rests on trust: Peptriva chose the laboratory, submitted the samples, and publishes the results, and Peptriva is the subject under review on this independent publication. Choosing and submitting samples is Peptriva's act; none of that chain is independently audited beyond the named laboratory's certificates.
+The half that rests on trust: Peptriva chose the laboratory, submitted the samples, and publishes the results, and Peptriva is the subject under review on this affiliated publication. Choosing and submitting samples is Peptriva's act; none of that chain is independently audited beyond the named laboratory's certificates.
 
 The half that does not: the certificates name an outside laboratory, carry accession numbers issued by that laboratory, and tie to lot codes printed on physical vials. A buyer who suspects the record can commission their own laboratory and compare. The terms invite exactly that. Where a shipped batch fails a published certificate specification, the affected units are replaced from the next conforming batch and the purchase price is refunded, with no claim form and no product return involved, and the buyer may substantiate the failure with a third-party laboratory report of their own[^3].
 
@@ -389,7 +389,7 @@ Because a review record with no complaints in it is not a good record, it is a f
 
 Suppression is also the specific practice the federal rule addresses. 16 CFR Part 465, in force since 21 October 2024, covers the suppression of negative reviews alongside the fabrication of positive ones[^8]. And nothing is ever traded for a review: no refund, credit, replacement, or discount is conditioned on removing, softening, or withdrawing one. A claim is settled on its merits and the review stays exactly where it is.
 
-## How to read this independent review record
+## How to read this affiliated review record
 
 Three structural problems apply to any small review base, and no amount of good intent removes them. **Self-selection**: people write when something was unusually good or unusually bad, and the middle of the distribution writes nothing. **Recency weighting**: a young record is dominated by whatever happened in the last few weeks, including one-off events, and reads them as permanent characteristics. **Small-number noise**: a single unhappy customer moves an average by a large fraction of a star for reasons that have nothing to do with the supplier.
 
@@ -614,10 +614,10 @@ A correction publishes alongside the original. A dispute that succeeds produces 
  h1: 'About Peptriva Customer Reviews',
  kicker: 'THE EDITORIAL POSITION',
  standfirst:
- 'This independent publication reviews Peptriva as company #1. Here is the position that follows from that, the rules the record runs on, and how each chapter weighs what it finds.',
+ 'This affiliated publication reviews Peptriva as company #1. Here is the position that follows from that, the rules the record runs on, and how each chapter weighs what it finds.',
  body: `## What this site is
 
-An independent review dossier: six numbered chapters, each reading one venue where a buyer would look for evidence about Peptriva, plus customer reviews collected for this record.
+An affiliated review dossier: six numbered chapters, each reading one venue where a buyer would look for evidence about Peptriva, plus customer reviews collected for this record.
 
 Peptriva is the trading name of Wayne Ventures SEZC, a Cayman Islands company with a registered office at 5th Floor, The Piccadilly Centre, 28 Elgin Avenue, George Town, P.O. Box 2575, Grand Cayman KY1-1103, and it is the seller of record for orders placed through peptriva.com[^3][^7]. It is the subject under review on this site, company #1 on the roster.
 

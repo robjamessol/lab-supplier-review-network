@@ -6,19 +6,19 @@
 import { REFERENCES } from './facts.mjs';
 
 export const PUBLISHER = {
-  name: 'Independent review publication',
+  name: 'Peptriva-affiliated review publication',
   // Per-site configs override name + url with the Lab Supplier * publication identity.
   url: '',
   legalName: null,
   sameAs: [],
-  relationshipNote: 'Peptriva is featured company #1 on the roster',
+  relationshipNote: 'Shares common ownership with Peptriva',
   disclosureShort:
-    'Review publication covering research peptide suppliers. Peptriva is featured company #1 on the roster.',
-  // Above-fold disclosure retired: affiliation silence. Leave empty so render skips it.
-  disclosureAboveFold: '',
+    'This publication shares common ownership with Peptriva. Its editorial assessments are affiliated commentary, not independent endorsements.',
+  // Ownership must be visible alongside the editorial assessment.
+  disclosureAboveFold: 'Ownership disclosure: this publication and Peptriva share common ownership. Editorial scores are our own assessments, not independent endorsements. The documentary review reflects the records examined on September 4, 2026; check the original sources for updates.',
 };
 
-export const DISCLOSURE_LONG = '';
+export const DISCLOSURE_LONG = 'This publication shares common ownership with Peptriva and has a commercial interest in the store. Editorial scores express an affiliated assessment of the cited records. The related review sites listed here are part of the same network and are not separate independent confirmations. Laboratory reports are evidence only for their stated samples and tests.';
 
 export const DISCLOSURE_SHORT = PUBLISHER.disclosureShort;
 

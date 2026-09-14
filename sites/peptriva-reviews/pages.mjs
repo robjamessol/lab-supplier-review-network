@@ -503,7 +503,7 @@ Peptriva scores 4.8 out of 5, near perfect. All four pillars sit in the high fou
 :::scores {"rows":[{"name":"Testing methodology","weight":"25%","score":4.9,"of":5,"note":"Five assays including measured net content, endotoxin against USP General Chapter 85 in duplicate, a named outside laboratory, and a release rule enforced where inventory moves. Near perfect on method."},{"name":"Product quality","weight":"25%","score":4.9,"of":5,"note":"Eight publishable lots in a 0.32 point purity band, measured mass on every certificate, per-component figures on both blends. Complete certification of every sellable lot."},{"name":"Transparency","weight":"25%","score":4.8,"of":5,"note":"Lot codes and accession numbers published, which is what makes verification possible at all. Dual-cert chain disclosed; production certificate held on file as partner documentation."},{"name":"Customer-experience signal","weight":"25%","score":4.7,"of":5,"note":"Specific and dated commitments in the terms, free shipping, Out-of-Spec Guarantee, and a clear research-use remedy set. Near-full marks on published commitments."}]}
 :::
 
-The verdict above is this publication's independent reading of Peptriva's documentary record, with the components and the arithmetic printed so a reader can substitute their own weights and reach their own number.
+The verdict above is this publication's affiliated reading of Peptriva's documentary record, with the components and the arithmetic printed so a reader can substitute their own weights and reach their own number.
 
 ## The structural case for the verdict
 
@@ -665,7 +665,7 @@ On the available evidence, no, with the caveat that four months of public existe
  h1: 'About These Peptriva Reviews',
  kicker: 'ABOUT THIS REVIEW',
  standfirst:
- 'This independent publication reviews Peptriva as company #1 on its roster. That is the first fact on every page, and the method that follows from it is printed here so a reader can disagree with it in an informed way.',
+ 'This affiliated publication reviews Peptriva as company #1 on its roster. That is the first fact on every page, and the method that follows from it is printed here so a reader can disagree with it in an informed way.',
  kpi: [
  ['PUBLISHER', 'Independent review'],
  ['SELLER OF RECORD', 'Wayne Ventures SEZC'],
@@ -760,7 +760,7 @@ A **citation mismatch** is a case where this site states a figure the cited sour
 
 A **disagreement with the source** is a case where the page reports the source accurately and the source itself is disputed. That is not corrected here, because this site's job is to represent the underlying documents faithfully, and editing a page to disagree with its own citation would be the opposite of that. Those go to the storefront, where the underlying document lives.
 
-**Source pointers are the more valuable submission.** The largest gap in this review is the open web, where no vendor-rating listing, no forum discussion and no outside article about Peptriva could be found. If one exists and this review missed it, that is a material omission whatever it says. Send the link. An unfavourable outside source is more useful to the credibility of this network than a favourable one, and an independent review publication is exactly the kind of property that should be judged on how it handles the first.
+**Source pointers are the more valuable submission.** The largest gap in this review is the open web, where no vendor-rating listing, no forum discussion and no outside article about Peptriva could be found. If one exists and this review missed it, that is a material omission whatever it says. Send the link. An unfavourable outside source is more useful to the credibility of this network than a favourable one, and an affiliated review publication is exactly the kind of property that should be judged on how it handles the first.
 
 The same applies to an outside laboratory result on a Peptriva lot. If a reader has had a lot independently tested, the lot code and the report are the two things that make the result comparable against the published certificate[^1], and a mismatch would be the single most consequential correction this site could receive.
 

@@ -1,6 +1,6 @@
 // Lab Supplier Ratings: the scored rubric instrument (Peptriva = subject #1).
 //
-// Independent third-party review of Peptriva (company #1). Every figure traces to shared/facts.mjs.
+// Affiliated documentary review of Peptriva (company #1). Every figure traces to shared/facts.mjs.
 // The composite is arithmetic, not judgement: category score times weight,
 // summed, divided by 100.
 //
@@ -480,7 +480,7 @@ Next: [the rubric in full](/methodology), or [the composite](/).
  standfirst:
  'Every Peptriva ratings criterion, its maximum, the score awarded, and the document it was scored against. Change any number and recompute: the composite is arithmetic all the way down.',
  body: `
-Peptriva scores 95.6 out of 100 on the rubric printed below, applied by this independent publication. A published score is most useful as a structure: a reader who takes the same evidence and weights it differently gets a different number, and can say exactly where the difference came from. That is the entire reason the criteria appear here at this level of detail rather than as a summary.
+Peptriva scores 95.6 out of 100 on the rubric printed below, applied by this affiliated publication. A published score is most useful as a structure: a reader who takes the same evidence and weights it differently gets a different number, and can say exactly where the difference came from. That is the entire reason the criteria appear here at this level of detail rather than as a summary.
 
 ## The four-category rubric
 

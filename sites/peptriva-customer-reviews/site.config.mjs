@@ -33,7 +33,7 @@ export const site = {
   footer: footer({
     siteId: 'peptriva-customer-reviews',
     blurb:
-      'The customer review record for Peptriva, featured #1 on this independent publication\'s roster, read venue by venue.',
+      'The customer review record for Peptriva, featured #1 on this affiliated publication\'s roster, read venue by venue.',
   }),
 };
 

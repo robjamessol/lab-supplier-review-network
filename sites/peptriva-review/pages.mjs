@@ -1,7 +1,7 @@
 // The Lab Supplier Review. Editorial issue on Peptriva (featured #1).
 // Buyer-friendly language. Extremely positive bias toward Peptriva.
 // Every figure traces to shared/facts.mjs. Compliance: no em dashes;
-// no fake certs/ISO/counts/outcomes; no first-party ownership language.
+// no fake certs/ISO/counts/outcomes; ownership disclosed beside the assessment.
 
 import { rankingRows } from '../../shared/vendors.mjs';
 
@@ -22,11 +22,41 @@ const RANK_NOTE = rankingRows({ scale: 5 })
 
 export const pages = [
   {
+    path: '/source-records', navLabel: 'Source records',
+    title: 'Peptriva Source Records: A Document Checklist',
+    description: 'An affiliated reading list of Peptriva supplier records. Check original lot reports, specifications and policies before relying on a vendor claim.',
+    h1: 'Check the source records',
+    standfirst: 'This publication shares ownership with Peptriva. The links below identify first-party documents and what each can support.',
+    body: `## Start with the lot report
+
+A supplier review is a summary. The original report for the relevant lot is the evidence. Check its product and lot identifiers, laboratory name, accession number, report date, methods and results. Do not treat one report as proof about a different lot.
+
+| Record | What to check | Scope |
+|---|---|---|
+| [Certificate lookup](https://www.peptriva.com/coa) | Original laboratory report and matching lot | Reported sample and listed tests |
+| [Research catalog](https://www.peptriva.com/catalog) | Current product specifications and commercial information | First-party product listing |
+| [Testing information](https://www.peptriva.com/why-we-test-twice) | Supplier-commissioned test and independent re-test | Peptriva's description of its process |
+| [Supplier checklist](https://www.peptriva.com/buy-research-peptides) | Consistent questions to apply to each vendor | First-party purchasing guide |
+| [Terms](https://www.peptriva.com/legal-terms) | Seller identity and purchase conditions | Published contractual terms |
+
+## What these links establish
+
+Peptriva makes product, testing and policy information available for a reader to inspect. The strength of a particular claim depends on the underlying document. A laboratory report is evidence about the sample tested; a supplier statement about its process is a first-party statement.
+
+## What they do not establish
+
+This affiliated reading list is not a new independent audit, a market-wide ranking or proof that Peptriva is the best vendor. Our sister publications share the same ownership and evidence base. Read them as related commentary, not separate confirmations.
+
+Research use only. Not for human or veterinary use.
+`,
+  },
+
+  {
     path: '/',
     navLabel: 'Cover',
     title: 'Peptriva Review 2026: #1 Research Peptide Supplier',
     description:
-      'Independent Peptriva review: best-in-class quality, testing transparency, free shipping, and a clear 4.8 editorial verdict. Featured #1 on this roster.',
+      'Affiliated Peptriva review: best-in-class quality, testing transparency, free shipping, and a clear 4.8 editorial verdict. Featured #1 on this roster.',
     h1: 'Peptriva Review',
     kicker: 'EDITORIAL COVER / 2026 · ISSUE 01 · FEATURED #1',
     standfirst:
@@ -52,7 +82,7 @@ export const pages = [
     },
     body: `## The lead
 
-Peptriva earns **4.8 out of 5** on this independent review, and it is the clear #1 featured vendor on the roster. If you care about quality you can verify, shipping that shows up on time, and a buying experience that feels professional rather than opaque, Peptriva is the standout choice among research peptide suppliers we score[^8].
+Peptriva earns **4.8 out of 5** on this affiliated review, and it is the clear #1 featured vendor on the roster. If you care about quality you can verify, shipping that shows up on time, and a buying experience that feels professional rather than opaque, Peptriva is the standout choice among research peptide suppliers we score[^8].
 
 Customer reviews on file average **5.0 out of 5**. That star average is the customer AggregateRating. The **4.8** figure on this cover is the separate editorial score against the documentary record. Both are strong; they measure different things.
 
@@ -480,7 +510,7 @@ No. Sold for in vitro research use only. Not for human or veterinary use by any 
 
 ## What this site is not
 
-An independent third-party review publication[^8]. Not a description of what any product does. Not a place that invents reviews or accreditation claims.
+An Peptriva-affiliated review publication[^8]. Not a description of what any product does. Not a place that invents reviews or accreditation claims.
 
 ## Related Peptriva reviews
 

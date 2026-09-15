@@ -114,7 +114,7 @@ The mean of those four is 4.8 out of 5. A reader who thinks the customer-experie
 :::
 
 :::callout {"title":"New customer offer at Peptriva"}
-New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+New customers get **10% off** their first order with code [WELCOME10](https://www.peptriva.com/?promo_code=WELCOME10). Open that link to apply the code at checkout on the Peptriva shop.
 :::
 
 
@@ -539,7 +539,7 @@ Peptriva is featured #1 at **4.8 out of 5** on this review. Editorial roster sco
 :::
 
 :::callout {"title":"New customer offer at Peptriva"}
-New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+New customers get **10% off** their first order with code [WELCOME10](https://www.peptriva.com/?promo_code=WELCOME10). Open that link to apply the code at checkout on the Peptriva shop.
 :::
 
 

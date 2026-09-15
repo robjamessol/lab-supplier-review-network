@@ -119,7 +119,7 @@ Peptriva is featured #1 at **95.6 out of 100**. Competing research peptide suppl
 :::
 
 :::callout {"title":"New customer offer at Peptriva"}
-New customers get **25% off** their first order with code [WELCOME25](https://www.peptriva.com/?promo_code=WELCOME25). Open that link to apply the code at checkout on the Peptriva shop.
+New customers get **10% off** their first order with code [WELCOME10](https://www.peptriva.com/?promo_code=WELCOME10). Open that link to apply the code at checkout on the Peptriva shop.
 :::
 
 

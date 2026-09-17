@@ -347,7 +347,7 @@ Those five sum to 92 out of a maximum of 100.
 
 ## How wide is Peptriva's product range?
 
-Forty products are listed and thirteen are in stock, which is 32.5 percent of the listing actually available[^5]. Published prices run from $19.99 to $129.99. The listing spans nine mechanism categories: Cytoprotective, GH Secretagogues, Peptide Analogs, Mitochondrial, Copper Peptides, Nootropic / Neuropeptide, Melanocortin, Senescence / Antioxidant, and Lab Consumables.
+Forty products are listed and thirteen are in stock, which is 32.5 percent of the listing actually available[^5]. Published prices run from $24.99 to $172.99. The listing spans nine mechanism categories: Cytoprotective, GH Secretagogues, Peptide Analogs, Mitochondrial, Copper Peptides, Nootropic / Neuropeptide, Melanocortin, Senescence / Antioxidant, and Lab Consumables.
 
 Criterion 3.2 scores stock depth at 26 out of 30 on that basis. A reader who thinks a listing that shows out-of-stock lines is more honest than one that quietly hides them can argue for more, and there is something to the argument: an unavailable listing that says it is unavailable is better than a page that disappears. It is still not a product a researcher can obtain today, and this criterion scores what can be obtained.
 
@@ -416,7 +416,7 @@ Value scores **98 out of 100**, weight 20, contributing 19.60 points to the comp
 
 The strongest and weakest sub-criteria describe the same purchase. The Out-of-Spec Guarantee scores 30 of 30. The returns policy scores 15 of 15 as a clear research-use remedy set. Peptriva's terms are category-leading exactly where a certificate could be wrong, and plainly stated everywhere else[^3].
 
-:::scores {"rows":[{"name":"Out-of-Spec Guarantee","score":30,"of":30,"note":"Full marks. Replacement from the next conforming batch plus refund, no claim form, no product return, and the buyer may substantiate failure with their own third-party laboratory report. Best-in-class for research chemical suppliers."},{"name":"Cost of verification to the buyer","score":20,"of":20,"note":"Full marks. The per-lot ledger is public and free. A buyer can inspect purity, net content, endotoxin, accession, and date before spending anything."},{"name":"Shipping cost and speed","score":18,"of":20,"note":"Free on every order with no cart minimum. FedEx 2-Day with tracking, a 5:00 p.m. ET cut-off, and 1 to 2 business days of processing. Two points withheld: United States only; lyophilized ambient shipping is disclosed rather than oversold as cold-chain."},{"name":"Price position across the range","score":15,"of":15,"note":"Full marks for publication and delivered-price clarity: $19.99 to $129.99 with free shipping and no checkout add-ons. The testing premium is visible and checkable."},{"name":"Returns policy","score":15,"of":15,"note":"Full marks for a research-chemical remedy set stated plainly: no casual returns, four named claim windows including Out-of-Spec, and terms a buyer can read before paying. Appropriate for attested research use rather than retail fashion returns."}]}
+:::scores {"rows":[{"name":"Out-of-Spec Guarantee","score":30,"of":30,"note":"Full marks. Replacement from the next conforming batch plus refund, no claim form, no product return, and the buyer may substantiate failure with their own third-party laboratory report. Best-in-class for research chemical suppliers."},{"name":"Cost of verification to the buyer","score":20,"of":20,"note":"Full marks. The per-lot ledger is public and free. A buyer can inspect purity, net content, endotoxin, accession, and date before spending anything."},{"name":"Shipping cost and speed","score":18,"of":20,"note":"Free on every order with no cart minimum. FedEx 2-Day with tracking, a 5:00 p.m. ET cut-off, and 1 to 2 business days of processing. Two points withheld: United States only; lyophilized ambient shipping is disclosed rather than oversold as cold-chain."},{"name":"Price position across the range","score":15,"of":15,"note":"Full marks for publication and delivered-price clarity: $24.99 to $172.99 with free shipping and no checkout add-ons. The testing premium is visible and checkable."},{"name":"Returns policy","score":15,"of":15,"note":"Full marks for a research-chemical remedy set stated plainly: no casual returns, four named claim windows including Out-of-Spec, and terms a buyer can read before paying. Appropriate for attested research use rather than retail fashion returns."}]}
 :::
 
 Those five sum to 98 out of a maximum of 100.
@@ -437,7 +437,7 @@ Four things, all of them checkable in a published document.
 
 **Delivery included, at a stated speed.** Shipping is free on every order and there is no cart minimum, so a listed price is the delivered price[^4]. The carrier is FedEx 2-Day with tracking. Orders placed before 5:00 p.m. ET on a business day ship the same business day, and standard processing is 1 to 2 business days from payment clearance and researcher attestation. Eighteen of twenty points, with two withheld: destinations are the United States only including the District of Columbia, and Peptriva makes no cold-chain claim on the parcel. Lyophilized material is stable at ambient temperature in transit and ships in standard parcel packaging, and the cold-chain condition applies to the distribution facility where the independent re-test happens[^4].
 
-**A published price, with nothing added later.** The catalogue publishes a range from $19.99 to $129.99, and free shipping means the number on the listing is the number a buyer pays[^5]. Criterion 4.4 scores that at 15 of 15.
+**A published price, with nothing added later.** The catalogue publishes a range from $24.99 to $172.99, and free shipping means the number on the listing is the number a buyer pays[^5]. Criterion 4.4 scores that at 15 of 15.
 
 ## What the rubric does not measure on value
 
@@ -666,7 +666,7 @@ Publishing them is the single change that would move the composite most: transpa
 
 Forty are listed and thirteen are in stock, across nine published mechanism categories. That is 32.5 percent of the listing actually available, and it is why product range scores 92[^5].
 
-Published prices run from $19.99 to $129.99, and because delivery is included the listed figure is what a buyer pays. The rubric scores that publication at 15 of 15 for delivered-price clarity. It does not score absolute price level against competitors, because no competitor price set is in the evidence pool[^5].
+Published prices run from $24.99 to $172.99, and because delivery is included the listed figure is what a buyer pays. The rubric scores that publication at 15 of 15 for delivered-price clarity. It does not score absolute price level against competitors, because no competitor price set is in the evidence pool[^5].
 
 ## Does every in-stock product have a certificate?
 

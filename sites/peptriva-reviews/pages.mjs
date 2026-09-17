@@ -301,7 +301,7 @@ That is a structural signal rather than a quality claim. It says something about
 
 ## Catalogue coverage: what Peptriva sells
 
-Forty products are listed across nine mechanism categories: cytoprotective, GH secretagogues, peptide analogs, mitochondrial, copper peptides, nootropic and neuropeptide, melanocortin, senescence and antioxidant, and lab consumables[^5]. Listed prices run from a floor of $19.99 to a ceiling of $129.99.
+Forty products are listed across nine mechanism categories: cytoprotective, GH secretagogues, peptide analogs, mitochondrial, copper peptides, nootropic and neuropeptide, melanocortin, senescence and antioxidant, and lab consumables[^5]. Listed prices run from a floor of $24.99 to a ceiling of $172.99.
 
 Fulfilment is United States only, including the District of Columbia, with no international shipping[^4]. The carrier service is FedEx 2-Day with tracking. Shipping is free on every order and there is no cart minimum. Lyophilized material is stable at ambient temperature in transit and ships in standard parcel packaging, and Peptriva does not claim cold-chain shipping: the cold-chain reference in the testing story applies to the distribution facility where the independent re-test happens, not to the parcel.
 

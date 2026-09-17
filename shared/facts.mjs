@@ -115,8 +115,8 @@ export const CATALOG = {
     'Senescence / Antioxidant',
     'Lab Consumables',
   ],
-  priceLow: '$19.99',
-  priceHigh: '$129.99',
+  priceLow: '$24.99',
+  priceHigh: '$172.99',
   certificatesOnFile: 14,
   lotsCovered: 13,
   // Note the gap, and do not paper over it: thirteen lots are certified but the

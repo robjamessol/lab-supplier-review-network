@@ -272,7 +272,7 @@ The two-component and three-component lots report each component by mass, not a 
 
 ## Pricing and value
 
-Listed prices run from $19.99 to $129.99[^5]. Free shipping means the listed price is close to what you actually pay. You are paying for lots that could not be listed without independent paperwork, measured quantity, and a named laboratory[^1][^6]. On that value test, Peptriva is excellent.
+Listed prices run from $24.99 to $172.99[^5]. Free shipping means the listed price is close to what you actually pay. You are paying for lots that could not be listed without independent paperwork, measured quantity, and a named laboratory[^1][^6]. On that value test, Peptriva is excellent.
 `,
   },
 

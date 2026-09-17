@@ -381,7 +381,7 @@ Every published review is tagged against these categories. They are the counting
 | Claims and refunds | How a damage, shortage, loss, or out-of-specification claim was handled | Claims answered within 5 business days, approved refunds within 7 to 10 business days of approval[^3] |
 | Ordering and attestation | Account creation, the 21-or-over gate, and the researcher attestation step | Buyers must be 21 or over and must attest that they are a qualified researcher[^3] |
 | Catalogue and stock | Availability, breadth, and product information | 40 products listed, 13 in stock, and every in-stock lot carrying an independent certificate[^1][^5] |
-| Pricing | Value judgements about what was paid | A published range from $19.99 to $129.99, with free shipping on every order and no cart minimum[^4][^5] |
+| Pricing | Value judgements about what was paid | A published range from $24.99 to $172.99, with free shipping on every order and no cart minimum[^4][^5] |
 
 ## Why the complaints are published
 
@@ -765,7 +765,7 @@ What each source can settle, and where it stops:
 | Contact page[^7] | The despatch address, telephone number, support addresses, and hours of business | Response times in practice |
 | 16 CFR Part 465[^8] | The federal rule governing review authenticity, undisclosed incentives, review suppression, and company-controlled review websites since 21 October 2024 | Compliance by any particular publisher, including this one, which is a matter of conduct rather than citation |
 
-The figures those sources support, in one place: eight publishable lots reporting purity between 99.58 and 99.90 percent by HPLC-UV area percent, each with a measured net content and an endotoxin result under USP General Chapter <85>[^1][^6]; fourteen certificates covering thirteen lots, with 13 of the 40 listed products in stock and every in-stock lot certified[^1][^5]; an independent submission received 30 June 2026 and reported 2 July 2026[^2]; a domain registered 30 April 2026; and a published price range from $19.99 to $129.99 with free shipping and no cart minimum[^4][^5].
+The figures those sources support, in one place: eight publishable lots reporting purity between 99.58 and 99.90 percent by HPLC-UV area percent, each with a measured net content and an endotoxin result under USP General Chapter <85>[^1][^6]; fourteen certificates covering thirteen lots, with 13 of the 40 listed products in stock and every in-stock lot certified[^1][^5]; an independent submission received 30 June 2026 and reported 2 July 2026[^2]; a domain registered 30 April 2026; and a published price range from $24.99 to $172.99 with free shipping and no cart minimum[^4][^5].
 
 What is deliberately not cited: no accreditation certificate, because none is published, so no accreditation is claimed anywhere on this site. No third-party vendor-rating listing, because Peptriva does not appear on one. No customer or order count, because no figure of that kind is published. Where a page needed one of those to make a point, the point was cut rather than sourced to something weaker.
 
